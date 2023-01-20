@@ -1,0 +1,16 @@
+/**IMPORT Reset */ /* Reseteo */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  list-style: none;
+}
+
+body {
+  background-color: #141414;
+}/*# sourceMappingURL=style.css.map */
