@@ -1,0 +1,45 @@
+footer {
+  @include flex(row, nowrap, space-around, center);
+  width: 100%;
+  min-height: 60px;
+  min-width: 320px;
+  gap: 9rem;
+  -webkit-box-shadow: 0px -8px 7px 4px rgba(192, 192, 192, 0.33);
+  -moz-box-shadow: 0px -8px 7px 4px rgba(192, 192, 192, 0.33);
+  box-shadow: 0px -8px 7px 4px rgba(192, 192, 192, 0.33);
+  margin-top: 50px;
+  padding: 20px 0;
+
+  .social-media {
+    @include flex(row, nowrap, space-around, center);
+    width: 100%;
+    padding: 0 10px;
+    .icon {
+      &_img {
+        width: 15%;
+      }
+    }
+    .rrss {
+      @include flex(row, nowrap, space-between, center);
+      gap: 1rem;
+      a {
+        text-decoration: none;
+        color: $color1;
+      }
+      &_social-icon {
+        width: 40px;
+        height: 20%;
+      }
+    }
+  }
+  @media screen and (min-width: $sm) and (max-width: $xl) {
+    .social-media {
+      .rrss {
+        &_social-icon {
+          width: 30px;
+          height: 15%;
+        }
+      }
+    }
+  }
+}

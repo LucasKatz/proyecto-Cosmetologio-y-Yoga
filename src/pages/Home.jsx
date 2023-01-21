@@ -1,13 +1,10 @@
+ import { Footer } from '../components';
  
-import { Footer, Nav } from '../components';
- 
-
-
-function Home() {
+ function Home() {
   return (
     <div>       
-       <h1>Aca van los components</h1>
-      <Nav/>
+       {/* <h1>Aca van los components</h1>
+      <Nav/> */}
        <Footer/>
     </div>
   )

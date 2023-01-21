@@ -1,2 +1,8 @@
 /**IMPORT Reset */
 @import "../styles/base/reset.scss";
+
+@import "../styles/abstracts/mixins";
+@import "../styles/abstracts/variables";
+
+/**IMPORT Components */
+ @import "../styles/components/footer"

@@ -1,0 +1,58 @@
+// -------------------- MIXINS
+
+// flex principal
+
+@mixin flex($direction, $wrap, $justify, $align) {
+	display: flex;
+	flex: {
+		direction: $direction;
+		wrap: $wrap;
+	}
+	justify-content: $justify;
+	align-items: $align;
+}
+ 
+// icon
+
+@mixin icon($color, $size) {
+	color: $color;
+	font-size: $size;
+	padding: 0.6rem;
+}
+
+
+ 
+// subtitulo
+
+@mixin subtitle($color, $align) {
+	color: $color;
+	font: {
+		size: 1.5rem;
+		weight: $extra-bold;
+	}
+	text: {
+		align: $align;
+		transform: uppercase;
+		decoration: none;
+	}
+	letter-spacing: 0.1rem;
+}
+ 
+// parrafo
+
+@mixin paragraph($color, $align, $width) {
+	color: $color;
+	font: {
+		size: 1.2rem;
+		weight: $regular;
+	}
+	text: {
+		align: $align;
+		decoration: none;
+	}
+	letter-spacing: 0.1rem;
+	line-height: 1.5;
+	max-width: $width;
+}
+
+
