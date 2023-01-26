@@ -7,7 +7,7 @@ import "../components/Nav.css";
 
 const NavBAr = () => {
   return (
-    <div>
+    <>
       <Navbar className="navegador">
         <Container>
           <Navbar.Brand href="#home">
@@ -38,7 +38,7 @@ const NavBAr = () => {
           </Nav>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 };
 
