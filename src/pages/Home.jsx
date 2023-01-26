@@ -1,11 +1,11 @@
  import { Footer } from '../components';
- import {Nav} from '../components'
+ import {NavBar} from '../components'
+ 
  
  function Home() {
   return (
     <div>       
-       
-      <Nav/> 
+      <NavBar/>
        <Footer/>
     </div>
   )

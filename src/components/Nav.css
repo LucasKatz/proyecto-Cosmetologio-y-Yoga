@@ -1,25 +1,29 @@
 .navegador{
     background-color: red;
-    display: flex;
+    height: 100px;
+}
+
+.me-auto{
+  display: grid;
+  place-content: center;
 }
 
 .contenedorLinks {
     background-color: aqua;
-    display: inline-block;
-    text-align: end;
+    display: inline;
+    flex-direction: row;  
 }
 
 .logo {
-    height: 6em;
-    padding: 1.5em;
+    height: 8em;
+    padding-top: 4.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.2em;
     will-change: filter;
     display: inline;
 }
 
-#basic-navbar-nav{
-    text-align: end;
-    padding-right: 10px;
-}
+
 
 .Link{
     margin: 10px;
