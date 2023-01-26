@@ -4,9 +4,7 @@
  function Home() {
   return (
     <div>       
-      <NavBar/>
-  
-      <Footer/>
+
     </div>
   )
 }
