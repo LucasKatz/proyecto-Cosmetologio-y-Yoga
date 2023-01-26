@@ -1,13 +1,19 @@
-import { Home } from './pages'
-import '../src/styles/style.css'
- 
+import { Home } from "./pages";
+import { NavBar } from "./components";
+import "../src/styles/style.css";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 function App() {
- 
   return (
-    <div className="App">
-     <Home/>
-    </div>
-  )
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

@@ -1,33 +1,48 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
-import "../components/Nav.css"
-
+import React from 'react';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { NavLink } from "react-router-dom";
+import "../components/Nav.css";
 
 const NavBAr = () => {
   return (
-<>
-      <Navbar className='navegador' bg="dark" variant="dark">
+    <>
+      <Navbar className="navegador">
         <Container>
-          <Navbar.Brand  href="#home"><img className='logo' src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png" alt="" /></Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img
+              className="logo"
+              src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
+              alt="pp"
+            />
+          </Navbar.Brand>
           <Nav className="me-auto">
-            <div className='contenedorLinks'>
-            <NavLink className='Link' to = '/'>Home</NavLink>
-            <NavLink className='Link'  to = '/'>Clases</NavLink>
-            <NavLink className='Link' to = '/'>Bio</NavLink>
-            <NavLink className='Link'  to = '/'>Info</NavLink>
-            <NavLink className='Link'  to = '/'>Contacto</NavLink>
+            <div className="contenedorLinks">
+              <NavLink className="Link" to="/Home">
+                Home
+              </NavLink>
+              <NavLink className="Link" to="/Clases">
+                Clases
+              </NavLink>
+              <NavLink className="Link" to="/Bio">
+                Bio
+              </NavLink>
+              <NavLink className="Link" to="/Info">
+                Info
+              </NavLink>
+              <NavLink className="Link" to="/Contacto">
+                Contacto
+              </NavLink>
             </div>
           </Nav>
         </Container>
       </Navbar>
-      </>
-  )
-  
-}
+    </>
+  );
+};
 
-export default NavBAr
+export default NavBAr;
 
 /* <Navbar bg="light" expand="lg">
 
@@ -53,3 +68,4 @@ export default NavBAr
   </Navbar.Collapse>
     </Container>
 </Navbar>*/
+
