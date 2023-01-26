@@ -1,10 +1,5 @@
-import  Home  from './pages'
-import Clases from './pages'
-import Bio from './pages'
-import Info from './pages'
-import Contacto from './pages'
-import {NavBar} from './components'
-import {Footer} from './components'
+import  {Home, Clases, Bio, Info, Contacto}  from './pages'
+import {NavBar, Footer} from './components'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/styles/style.css'

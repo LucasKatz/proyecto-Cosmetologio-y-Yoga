@@ -1,7 +1,7 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { NavLink } from "react-router-dom";
 import "../components/Nav.css"
 
 
@@ -13,11 +13,11 @@ const NavBAr = () => {
           <Navbar.Brand  href="#home"><img className='logo' src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png" alt="" /></Navbar.Brand>
           <Nav className="me-auto">
             <div className='contenedorLinks'>
-            <NavLink className='Link' to = '/Home'>Home</NavLink>
-            <NavLink className='Link'  to = '/Clases'>Clases</NavLink>
-            <NavLink className='Link' to = '/Bio'>Bio</NavLink>
-            <NavLink className='Link'  to = '/Info'>Info</NavLink>
-            <NavLink className='Link'  to = '/Contacto'>Contacto</NavLink>
+            <NavLink className='Link' as ={Link} to = '/'>Home</NavLink>
+            <NavLink className='Link' as ={Link} to = '/Clases'>Clases</NavLink>
+            <NavLink className='Link'as ={Link} to = '/Bio'>Bio</NavLink>
+            <NavLink className='Link' as ={Link} to = '/Info'>Info</NavLink>
+            <NavLink className='Link' as ={Link} to = '/Contacto'>Contacto</NavLink>
             </div>
           </Nav>
         </Container>
