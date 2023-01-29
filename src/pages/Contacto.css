@@ -1,0 +1,35 @@
+
+.body{
+    background-image: url(../assets/images/pink.wave.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 550px;
+}
+
+.tituloContacto{
+    text-align: center;
+}
+
+.contenedorBody{
+    text-align: center;
+    align-content: center;
+    
+}
+
+.botonInstagram{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.botonWhatsapp{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.rrss_social-icon{
+    text-align: end;
+}
