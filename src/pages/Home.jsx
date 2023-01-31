@@ -1,11 +1,7 @@
-import { Footer } from "../components";
-import { NavBar } from "../components";
-
 function Home() {
   return (
     <div>
-      <NavBar />
-      <Footer />
+      <h1>Home</h1>
     </div>
   );
 }

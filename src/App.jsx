@@ -9,8 +9,8 @@ import "../src/styles/style.css";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route element={<Home />} path="/" />
           <Route element={<Clases />} path="/" />
@@ -18,8 +18,8 @@ function App() {
           <Route element={<Info />} path="/" />
           <Route element={<Contacto />} path="/" />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }
