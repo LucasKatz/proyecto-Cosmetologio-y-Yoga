@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink, Link } from "react-router-dom";
 import "../components/Nav.css";
 
-const NavBAr = () => {
+const NavBar = () => {
   return (
     <>
       <Navbar bg="dark" className="navegador" variant="dark">
@@ -41,4 +41,4 @@ const NavBAr = () => {
   );
 };
 
-export default NavBAr;
+export default NavBar;

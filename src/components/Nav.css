@@ -1,76 +1,77 @@
-.navegador{
-    background-color: red;
-    height: 100px;
+.navegador {
+  background-color: red;
+  height: 100px;
 }
 
-.me-auto{
+.me-auto {
   display: grid;
   place-content: center;
 }
 
 .contenedorLinks {
-    background-color: aqua;
-    display: inline;
-    flex-direction: row;  
+  background-color: aqua;
+  display: inline;
+  flex-direction: row;
 }
 
 .logo {
-    height: 8em;
-    padding-top: 4.5em;
-    padding-bottom: 1.5em;
-    padding-left: 1.2em;
-    will-change: filter;
-    display: inline;
+  height: 8em;
+  padding-top: 4.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.2em;
+  will-change: filter;
+  display: inline;
 }
 
-
-
-.Link{
-    margin: 10px;
-    font-size: x-large;
-    flex-direction: row;
-    
+.Link {
+  margin: 10px;
+  font-size: x-large;
+  flex-direction: row;
 }
 
 nav {
-    font-size: larger;
-  }
-  
-  nav .logo {
-    margin-top: -50px;
-    margin-right: 60px;
-   
-  }
-  
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  
-  nav li {
-    display: inline;
-    font-size: larger;
-    margin: 4px;
-  }
-  
-  nav .boton {
-    width: 180px;
-    text-align: center;
-    font-size: x-large;
-    background-color: #b17f48;
-    color: #56381f;
-    font-family: "Indie Flower", cursive;
-    font-weight: bolder;
-    text-decoration: none;
-    background-image: -webkit-gradient(linear, left top, right top, from(yellow), to(brown));
-    background-image: linear-gradient(to right, yellow, brown);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 4px;
-  }
-  
+  font-size: larger;
+}
+
+nav .logo {
+  margin-top: -50px;
+  margin-right: 60px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+nav li {
+  display: inline;
+  font-size: larger;
+  margin: 4px;
+}
+
+nav .boton {
+  width: 180px;
+  text-align: center;
+  font-size: x-large;
+  background-color: #b17f48;
+  color: #56381f;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  text-decoration: none;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(yellow),
+    to(brown)
+  );
+  background-image: linear-gradient(to right, yellow, brown);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 4px;
+}
