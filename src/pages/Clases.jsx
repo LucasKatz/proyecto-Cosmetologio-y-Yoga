@@ -1,9 +1,9 @@
 function Clases() {
-    return (
-      <div>       
+  return (
+    <div>
       <h1>Pagina de Clases</h1>
-      </div>
-    )
-  }
-  
-  export default Clases
+    </div>
+  );
+}
+
+export default Clases;
