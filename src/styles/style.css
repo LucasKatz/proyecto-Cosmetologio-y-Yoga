@@ -63,4 +63,75 @@ footer .social-media .rrss_social-icon {
     width: 30px;
     height: 15%;
   }
+}
+
+.navegador {
+  background-color: greenyellow;
+  display: grid;
+  place-items: end;
+}
+
+.contenedorLinks {
+  background-color: aqua;
+  display: inline-block;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.logoContainer {
+  background-color: red;
+  display: grid;
+  place-items: start;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+#basic-navbar-nav {
+  text-align: end;
+  padding-right: 10px;
+}
+
+.Link {
+  margin: 25px;
+  font-size: x-large;
+  flex-direction: row;
+}
+
+nav {
+  font-size: larger;
+}
+
+nav .logo {
+  margin-top: -50px;
+  margin-right: 60px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  display: inline;
+  font-size: larger;
+  margin: 4px;
+}
+
+nav .boton {
+  width: 180px;
+  text-align: center;
+  font-size: x-large;
+  background-color: #b17f48;
+  color: #56381f;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow, brown);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 4px;
 }/*# sourceMappingURL=style.css.map */

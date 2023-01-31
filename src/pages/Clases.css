@@ -1,0 +1,19 @@
+.cardConteiner{
+    display: grid;
+    place-items: center;
+    height: 500px;
+    margin: 25px;
+}
+
+.card {
+    background-color: red;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    height: fit-content;
+}
+
+
+.cardButton{
+    width:200%
+}

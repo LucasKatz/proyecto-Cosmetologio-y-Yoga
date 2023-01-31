@@ -1,19 +1,27 @@
 .navegador{
-    background-color: red;
-    display: flex;
+    background-color:greenyellow;
+    display: grid;
+    place-items: end;
 }
 
 .contenedorLinks {
     background-color: aqua;
     display: inline-block;
     text-align: end;
+    margin-right: 25px;
+}
+
+.logoContainer{
+  background-color: red;
+  display: grid;
+  place-items: start;
 }
 
 .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
-    display: inline;
+    
 }
 
 #basic-navbar-nav{
@@ -22,7 +30,7 @@
 }
 
 .Link{
-    margin: 10px;
+    margin: 25px;
     font-size: x-large;
     flex-direction: row;
     

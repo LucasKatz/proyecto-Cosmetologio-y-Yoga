@@ -3,21 +3,21 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-import "../components/Nav.css";
+
 
 const NavBAr = () => {
   return (
     <>
-      <Navbar className="navegador">
+      <Navbar >
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand className='logoContainer' href="#home" >
             <img
+              alt="pp"
               className="logo"
               src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
-              alt="pp"
             />
           </Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="navegador">
             <div className="contenedorLinks">
               <NavLink className="Link" to="/Home">
                 Home
