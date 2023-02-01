@@ -11,23 +11,23 @@ function Contacto() {
         <div className="contenedorBody">
             
         <button className="botonInstagram">
-            <p>holistic.bodyandmind</p>
-            <a href="https://www.instagram.com/holistic.bodyandmind/" rel="noopener noreferrer" target="_blank">
-            <FontAwesomeIcon className="rrss_social-icon" icon={faInstagram} />
+            <a className="href" href="https://www.instagram.com/holistic.bodyandmind/" rel="noopener noreferrer" target="_blank">
+            <p className="textoBotonInstagram">@holistic.bodyandmind</p>
+            <FontAwesomeIcon className="iconInstagram" icon={faInstagram} />
             </a>
         </button>
 
 
         <button className="botonWhatsapp">
-            <p>¡Hablemos!</p>          
-            <a href="http://" rel="noopener noreferrer" target="_blank">
-            <FontAwesomeIcon className="rrss_social-icon" icon={faWhatsapp} />
+            <a className="href" href="http://" rel="noopener noreferrer" target="_blank">
+            <p className="textoBotonWhatsapp">¡Hablemos!</p>          
+            <FontAwesomeIcon className="iconWhatsapp" icon={faWhatsapp} />
             </a>
         </button>
         </div>
 
         <div>
-            
+            <p>REEL DE INSTAGRAM</p>
         </div>
 
     </div>

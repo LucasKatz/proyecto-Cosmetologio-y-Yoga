@@ -1,3 +1,6 @@
+NavLink{
+  text-decoration: none;
+}
 .navegador{
     background-color:greenyellow;
     display: grid;
@@ -33,6 +36,13 @@
     margin: 25px;
     font-size: x-large;
     flex-direction: row;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-decoration: none;
+    
     
 }
 

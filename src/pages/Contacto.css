@@ -1,6 +1,6 @@
 
 .body{
-    background-image: url(../assets/images/pink.wave.svg);
+    background-image: url(../assets/pink.wave.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -8,7 +8,20 @@
 }
 
 .tituloContacto{
-    text-align: center;
+text-align: center;
+margin-top: 40px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 150%;
+/* identical to box height, or 60px */
+
+letter-spacing: -0.019em;
+text-transform: capitalize;
+
+color: #5B3619;
+
 }
 
 .contenedorBody{
@@ -17,19 +30,90 @@
     
 }
 
+.href{
+    text-decoration: none;
+}
+
 .botonInstagram{
-    display: block;
     margin: auto;
-    width: 70%;
+    background-color: #CDC8AF;
+    position: absolute;
+    width: 866px;
+    height: 108px;
+    left: 206px;
+    top: 240px;
+    border-radius: 12px;
+    border-style: hidden;
+    text-align: end;
+    margin-right: 40px;
+}
+
+.textoBotonInstagram{
+    height: 40.499996185302734px;
+    top: 263px;
+    text-align: start;
+    margin-left: 55px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 150%;
+    /* or 60px */
+    
+    letter-spacing: -0.019em;
+
+    
+    color: #FFFFFF;
 }
 
 .botonWhatsapp{
-    display: block;
     margin: auto;
     margin-top: 10px;
-    width: 70%;
+    background-color: #CDC8AF;
+    position: absolute;
+    width: 866px;
+    height: 108px;
+    left: 206px;
+    top: 364px;
+    border-radius: 12px;
+    border-style: hidden;
 }
 
-.rrss_social-icon{
-    text-align: end;
+.textoBotonWhatsapp{
+height: 40.499996185302734px;
+top: 387px;
+border-radius: nullpx;
+text-align: start;
+margin-left: 55px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 150%;
+/* or 60px */
+
+letter-spacing: -0.019em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.iconInstagram{
+margin-right: 15px;
+height: 42.5px;
+width: 40.833335876464844px;
+left: 4.08349609375px;
+top: 4.25px;
+border-radius: 0px;
+color: #C87E5D;
+}
+
+.iconWhatsapp{
+    height: 42.5px;
+    width: 40.833335876464844px;
+    left: 4.08349609375px;
+    top: 4.25px;
+    border-radius: 0px;
+    color: #C87E5D;
 }
