@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components";
 import { Footer } from './components';
 import Home from "./pages/Home";
@@ -8,7 +10,6 @@ import Contacto from "./pages/Contacto";
 
 import "../src/styles/style.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {

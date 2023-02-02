@@ -1,71 +1,27 @@
-import React from 'react';
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import { NavLink } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-router-dom';
 
-
-const NavBAr = () => {
+function CollapsibleExample() {
   return (
-    <>
-      <Navbar >
-        <Container>
-          <Navbar.Brand className='logoContainer' href="#home" >
-            <img
-              alt="pp"
-              className="logo"
-              src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
-            />
-          </Navbar.Brand>
-          <Nav className="navegador">
-            <div className="contenedorLinks">
-              <NavLink className="Link" to="/Home">
-                Home
-              </NavLink>
-              <NavLink className="Link" to="/Clases">
-                Clases
-              </NavLink>
-              <NavLink className="Link" to="/Bio">
-                Bio
-              </NavLink>
-              <NavLink className="Link" to="/Info">
-                Info
-              </NavLink>
-              <NavLink className="Link" to="/Contacto">
-                Contacto
-              </NavLink>
-            </div>
+    <Navbar className='navegador' collapseOnSelect expand="lg" >
+      <Container className='navegador'>
+        <Navbar.Brand href="#home"> <img className='logo' src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png" alt="" /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse className='btnConteiner' id="responsive-navbar-nav">
+          <Nav className='linkConteiner'>
+            <NavLink className='Link' to="/Home">Home</NavLink>
+            <NavLink className='Link' to="/Bio">Bio</NavLink>
+            <NavLink className='Link' to="/Clases">Clases</NavLink>
+            <NavLink className='Link' to="/Info">Info</NavLink>
+            <NavLink className='Link' to="/Contacto">Contacto</NavLink>
           </Nav>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
+}
 
-export default NavBAr;
-
-/* <Navbar bg="light" expand="lg">
-
-<img  
-      alt=""
-      classNameName="logo"
-      src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
-      srcSet=""
-    />
-    <Container classNameName='container'>
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav classNameName="me-auto">
-      <NavDropdown title="Menu" id="basic-nav-dropdown">
-      <NavLink classNameName="link"href="#home">Home</NavLink> <br />
-      <NavLink classNameName="link"href="#link">Clases</NavLink><br />
-        <NavDropdown.Item classNameName="link" href="#action/3.1">Bio</NavDropdown.Item><br />
-        <NavDropdown.Item classNameName="link"href="#action/3.2">
-          Info
-        </NavDropdown.Item><br />
-        <NavDropdown.Item classNameName="link"href="#action/3.3">Contacto</NavDropdown.Item><br />
-      </NavDropdown>
-    </Nav>
-  </Navbar.Collapse>
-    </Container>
-</Navbar>*/
-
+export default CollapsibleExample;

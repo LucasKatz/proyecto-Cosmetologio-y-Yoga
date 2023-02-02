@@ -2,35 +2,21 @@ NavLink{
   text-decoration: none;
 }
 .navegador{
-    background-color:greenyellow;
-    display: grid;
-    place-items: end;
-}
-
-.contenedorLinks {
-    background-color: aqua;
-    display: inline-block;
-    text-align: end;
-    margin-right: 25px;
-}
-
-.logoContainer{
-  background-color: red;
-  display: grid;
-  place-items: start;
+background-color: #FFFFFF;
+justify-content: end;
 }
 
 .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
-    
+    position: absolute;
 }
 
-#basic-navbar-nav{
-    text-align: end;
-    padding-right: 10px;
+.btnConteiner{
+  justify-content: end;
 }
+
 
 .Link{
     margin: 25px;
@@ -42,6 +28,8 @@ NavLink{
     font-weight: 300;
     font-size: 30px;
     text-decoration: none;
+    color: #C87E5D;
+   
     
     
 }
