@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 function CollapsibleExample() {
   return (
     <Navbar className='navegador' collapseOnSelect expand="lg" >
-      <Container className='navegador'>
+      <Container >
         <Navbar.Brand href="#home"> <img className='logo' src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className='btnConteiner' id="responsive-navbar-nav">
