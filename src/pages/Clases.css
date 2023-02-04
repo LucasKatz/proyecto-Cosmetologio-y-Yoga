@@ -34,3 +34,10 @@ font-weight: 800;
 line-height: 53px;
 letter-spacing: -0.019em;
 }
+
+.claseButton{
+    background-color: #C87E5D;
+    width: 540px;
+    height: 81px;
+    border-style: none;
+}
