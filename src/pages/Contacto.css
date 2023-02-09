@@ -35,51 +35,61 @@ color: #5B3619;
 }
 
 .botonInstagram{
-    margin: auto;
+    
     background-color: #CDC8AF;
-    position: absolute;
     width: 866px;
     height: 108px;
     left: 206px;
     top: 240px;
     border-radius: 12px;
     border-style: hidden;
-    text-align: end;
     margin-right: 40px;
 }
 
 .textoBotonInstagram{
+    display: inline;
     height: 40.499996185302734px;
     top: 263px;
-    text-align: start;
     margin-left: 55px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 150%;
-    /* or 60px */
-    
     letter-spacing: -0.019em;
-
-    
     color: #FFFFFF;
 }
+.href{
+    display: flex;
+    justify-content:space-evenly;
+    width:100%
+}
+
+.iconInstagram{
+    height: 42.5px;
+    width: 40.833335876464844px;
+    border-radius: 0px;
+    color: #C87E5D;
+    margin-top: 10px;
+    width: 50%;
+   
+    }
 
 .botonWhatsapp{
-    margin: auto;
-    margin-top: 10px;
+    
     background-color: #CDC8AF;
-    position: absolute;
     width: 866px;
     height: 108px;
     left: 206px;
-    top: 364px;
+    top: 240px;
     border-radius: 12px;
     border-style: hidden;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 .textoBotonWhatsapp{
+    display: inline;
 height: 40.499996185302734px;
 top: 387px;
 border-radius: nullpx;
@@ -90,24 +100,15 @@ font-style: normal;
 font-weight: 800;
 font-size: 40px;
 line-height: 150%;
-/* or 60px */
-
 letter-spacing: -0.019em;
 text-transform: capitalize;
+
 
 color: #FFFFFF;
 
 }
 
-.iconInstagram{
-margin-right: 15px;
-height: 42.5px;
-width: 40.833335876464844px;
-left: 4.08349609375px;
-top: 4.25px;
-border-radius: 0px;
-color: #C87E5D;
-}
+
 
 .iconWhatsapp{
     height: 42.5px;
@@ -116,4 +117,18 @@ color: #C87E5D;
     top: 4.25px;
     border-radius: 0px;
     color: #C87E5D;
+    margin-top: 10px;
+    
+}
+
+.Feed{
+    background-color: royalblue;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.innerText{
+    display: inline;
+    
 }

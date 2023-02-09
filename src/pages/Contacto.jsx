@@ -1,33 +1,41 @@
 import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../pages/Contacto.css"
+import Button from 'react-bootstrap/Button';
 
 function Contacto() {
     return (
     <div className="body">       
-        
+        "
         <h1 className="tituloContacto">Contacto</h1>
 
         <div className="contenedorBody">
             
-        <button className="botonInstagram">
+        <Button className="botonInstagram">
             <a className="href" href="https://www.instagram.com/holistic.bodyandmind/" rel="noopener noreferrer" target="_blank">
             <p className="textoBotonInstagram">@holistic.bodyandmind</p>
             <FontAwesomeIcon className="iconInstagram" icon={faInstagram} />
             </a>
-        </button>
+        </Button>
 
 
-        <button className="botonWhatsapp">
+        <Button className="botonWhatsapp">
             <a className="href" href="http://" rel="noopener noreferrer" target="_blank">
             <p className="textoBotonWhatsapp">¡Hablemos!</p>          
             <FontAwesomeIcon className="iconWhatsapp" icon={faWhatsapp} />
             </a>
-        </button>
+        </Button>
         </div>
 
         <div>
-            <p>REEL DE INSTAGRAM</p>
+            <div className="Feed">
+                
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+            
+            </div>
         </div>
 
     </div>

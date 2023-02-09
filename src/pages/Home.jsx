@@ -51,7 +51,7 @@ function Home() {
     <h1>Testimonios</h1>
     </div>
     <div className='reel'>
-      <p>Reel de Instagram</p>
+  <iframe src="https://www.instagram.com/p/B9zTfQ6BTZHUUWpQaG-NZfxla7A3p3IY3CKyMw0/" frameborder="0"></iframe>
     </div>
     </section>
     </div>
