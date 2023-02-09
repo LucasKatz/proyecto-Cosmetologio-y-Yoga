@@ -11,7 +11,7 @@ function Clases() {
         <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538226/niveles_d8eimf.png" />
         <Card.Body className='cardBody'>
           <Card.Text className='texto'>
-            <Link  className='Link' to="/Yoga" >Yoga</Link>  
+            <Link id='Yoga'  className='Link' to="/Yoga" >Yoga</Link>  
           </Card.Text>
         </Card.Body>
       </Card>
@@ -19,7 +19,7 @@ function Clases() {
         <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538242/talleres_qan5wh.png" />
         <Card.Body className='cardBody'>
           <Card.Text  className='texto'>
-          <Link  className='Link' to="/Talleres">Talleres</Link>
+          <Link id='Talleres' className='Link' to="/Talleres">Talleres</Link>
           </Card.Text>
         </Card.Body>
       </Card>

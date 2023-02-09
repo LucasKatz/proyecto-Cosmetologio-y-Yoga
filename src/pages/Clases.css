@@ -1,7 +1,7 @@
 .cardConteiner{
     background-image: url(../assets/fondo-waves.svg);
     background-size: cover;
-
+   
     display: grid;
     place-items: center;
     height: 700px;
@@ -9,6 +9,7 @@
 
 .card {
     background-color: red;
+    border-style: none;
     width: 50%;
     display: grid;
     place-items: center;
@@ -26,15 +27,23 @@ width: 100px;
 }
 
 .texto{
-    color:#FFFFFF;
     text-align: center;
+    text-decoration: none;
     font-family: Gilroy;
-font-size: 35px;
-font-weight: 800;
-line-height: 53px;
-letter-spacing: -0.019em;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: -0.019em;
 }
 
+
+#Yoga{
+    color: #FFFFFF
+}
+
+#Talleres{
+    color: #FFFFFF
+}
 .claseButton{
     background-color: #C87E5D;
     width: 540px;
