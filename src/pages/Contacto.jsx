@@ -14,15 +14,19 @@ function Contacto() {
         <Button className="botonInstagram">
             <a className="href" href="https://www.instagram.com/holistic.bodyandmind/" rel="noopener noreferrer" target="_blank">
             <p className="textoBotonInstagram">@holistic.bodyandmind</p>
+            <div className="iconContainer1"> 
             <FontAwesomeIcon className="iconInstagram" icon={faInstagram} />
+            </div>
             </a>
         </Button>
 
 
         <Button className="botonWhatsapp">
             <a className="href" href="http://" rel="noopener noreferrer" target="_blank">
-            <p className="textoBotonWhatsapp">¡Hablemos!</p>          
+            <p className="textoBotonWhatsapp">¡Hablemos!</p>
+            <div className="iconContainer2">        
             <FontAwesomeIcon className="iconWhatsapp" icon={faWhatsapp} />
+            </div>  
             </a>
         </Button>
         </div>
