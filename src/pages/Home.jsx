@@ -46,13 +46,22 @@ function Home() {
     <section className='infoHome'>
     <div className='vision'>
     <h1>Mi Vision</h1>
+    <p className='miVisionTexto'>Mi propósito es ayudarte a crear <span>tu mejor versión</span>: con prácticas de yoga adecuadas a tus tiempos y adaptadas a lo que necesites combinadas con técnicas de cuidados corporales amables.  </p>
     </div>
     <div className='testimonios'>
     <h1>Testimonios</h1>
+    <p className='miVisionTexto'>Mi propósito es ayudarte a crear <span>tu mejor versión</span>: con prácticas de yoga adecuadas a tus tiempos y adaptadas a lo que necesites combinadas con técnicas de cuidados corporales amables.  </p>
     </div>
-    <div className='reel'>
-  <iframe src="https://www.instagram.com/p/B9zTfQ6BTZHUUWpQaG-NZfxla7A3p3IY3CKyMw0/" frameborder="0"></iframe>
-    </div>
+    <div>
+            <div className="Feed">
+                
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+               <p className="innerText">REEL DE INSTAGRAM</p> 
+            
+            </div>
+        </div>
     </section>
     </div>
   );
