@@ -125,12 +125,11 @@ color: #FFFFFF;
     border-radius: 0px;
     color: #C87E5D;
     margin-top: 10px;
-   
+
     
 }
 
 .Feed{
-    background-color: royalblue;
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -138,5 +137,8 @@ color: #FFFFFF;
 
 .innerText{
     display: inline;
+    width: 145px;
+    height: 147px;
+    background-color: #5B3619;
     
 }

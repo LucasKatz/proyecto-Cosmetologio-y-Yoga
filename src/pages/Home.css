@@ -1,11 +1,7 @@
 .homeConteiner{
-    height: 800px;
+    height: 1170px;
     display: grid;
     place-items: center;
-}
-
-.carousel{
-    margin: 15px;
 }
 
 .infoHome{
@@ -16,6 +12,8 @@
     height: 100%;
     display: grid;
     place-items: center;
+    overflow: hidden;
+
 }
 
 .vision{
@@ -24,7 +22,7 @@
     width: 50%;
     color: #5B3619;
     text-align: center;
-
+    margin-top: 80px;
 }
 
 .testimonios{
@@ -35,14 +33,26 @@
     text-align: center;
 }
 
-.Feed{
-    background-color: royalblue;
+.picturesHome{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.FeedHome{
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.innerText{
+.innerTextHome{
     display: inline;
+    width: 145px;
+    height: 147px;
+    background-color: #5B3619;
+    margin-bottom: 35px;
     
+}
+
+#slide{
+margin-top: 0%;
 }

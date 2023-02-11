@@ -7,40 +7,41 @@ function Home() {
     <Carousel className='carousel'>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
           alt="First slide"
+          className="d-block w-100"
+          id='slide'
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676130448/carrousel3_zno1w9.jpg"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
           alt="Second slide"
+          className="d-block w-100"
+          id='slide'
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676130449/carrousel4_ik65tf.jpg"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
           alt="Third slide"
+          className="d-block w-100"
+          id='slide'
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676130449/carrousel1_bdk80x.jpg"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          alt="Fourth slide"
+          className="d-block w-100"
+          id='slide'
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676130449/carrousel2_eyrgau.jpg"
+        />
+
       </Carousel.Item>
     </Carousel>
     <section className='infoHome'>
@@ -52,13 +53,13 @@ function Home() {
     <h1>Testimonios</h1>
     <p className='miVisionTexto'>Mi propósito es ayudarte a crear <span>tu mejor versión</span>: con prácticas de yoga adecuadas a tus tiempos y adaptadas a lo que necesites combinadas con técnicas de cuidados corporales amables.  </p>
     </div>
-    <div>
-            <div className="Feed">
+    <div className='picturesHome'>
+            <div className="FeedHome">
                 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
+              <div className="innerTextHome">REEL DE INSTAGRAM</div> 
+              <div className="innerTextHome">REEL DE INSTAGRAM</div> 
+              <div className="innerTextHome">REEL DE INSTAGRAM</div> 
+              <div className="innerTextHome">REEL DE INSTAGRAM</div> 
             
             </div>
         </div>

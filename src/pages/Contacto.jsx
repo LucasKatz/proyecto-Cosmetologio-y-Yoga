@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 function Contacto() {
     return (
     <div className="body">       
-        "
+        
         <h1 className="tituloContacto">Contacto</h1>
 
         <div className="contenedorBody">
@@ -34,10 +34,10 @@ function Contacto() {
         <div>
             <div className="Feed">
                 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
-               <p className="innerText">REEL DE INSTAGRAM</p> 
+                <div className="innerText">REEL DE INSTAGRAM</div> 
+                <div className="innerText">REEL DE INSTAGRAM</div> 
+                <div className="innerText">REEL DE INSTAGRAM</div> 
+                <div className="innerText">REEL DE INSTAGRAM</div> 
             
             </div>
         </div>
