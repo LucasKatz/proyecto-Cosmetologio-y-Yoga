@@ -10,7 +10,7 @@ function Home() {
           alt="First slide"
           className="d-block w-100"
           id='slide'
-          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676130448/carrousel3_zno1w9.jpg"
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676209487/carrousel3_t4zhnk.jpg"
         />
 
       </Carousel.Item>
