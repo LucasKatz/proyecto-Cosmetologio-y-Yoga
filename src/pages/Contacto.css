@@ -26,8 +26,7 @@ color: #5B3619;
 
 .contenedorBody{
     text-align: center;
-    align-content: center;
-    
+    align-content: center;   
 }
 
 .href{
@@ -179,7 +178,7 @@ color: #FFFFFF;
         display: inline;
         height: 40.499996185302734px;
         top: 263px;
-        margin-left: 55px;
+        margin-left: 15px;
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 800;
@@ -219,7 +218,7 @@ color: #FFFFFF;
         top: 387px;
         border-radius: nullpx;
         text-align: start;
-        margin-left: 55px;
+        margin-left: 15px;
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 800;
@@ -266,4 +265,24 @@ color: #FFFFFF;
         height: 69px;
         background-color: #5B3619;
     }    
+
+    .claseButton{
+        width: 270px;
+        height: 50px;
+    }
+
+    .reserva{
+        width: 250px;
+        height: 51px;
+    }
+
+    #yogaConteiner{
+        height: 70px;
+        display: grid;
+        place-content: center;
+    }
+
+    .Link{
+        font-size: 20px;
+    }
 }
