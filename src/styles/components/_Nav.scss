@@ -6,6 +6,7 @@ background-color: #FFFFFF;
 justify-content: end;
 box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 height: 117px;
+z-index: 1;
 }
 
 .logo {
@@ -76,4 +77,11 @@ nav {
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 4px;
+  }
+
+  @media (max-width: 438px){
+
+    .logo{
+      overflow: hidden;
+    }
   }

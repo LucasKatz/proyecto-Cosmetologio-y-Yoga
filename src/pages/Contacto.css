@@ -142,3 +142,123 @@ color: #FFFFFF;
     background-color: #5B3619;
     
 }
+
+
+@media (max-width: 438px){
+
+    .body{
+        width: fit-content;
+    }
+
+    .href{
+        text-decoration: none;
+        display: flex;
+        justify-content:space-evenly;
+        width:100%
+    }
+    
+    .botonInstagram{
+        
+        background-color: #CDC8AF;
+        width: 866px;
+        height: 108px;
+        left: 206px;
+        top: 240px;
+        border-radius: 12px;
+        border-style: hidden;
+        margin-right: 40px;
+    }
+    
+    .textoBotonInstagram{
+        display: inline;
+        height: 40.499996185302734px;
+        top: 263px;
+        margin-left: 55px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 150%;
+        letter-spacing: -0.019em;
+        color: #FFFFFF;
+        width: 50%;
+    }
+    
+    
+    .iconInstagram{
+        height: 42.5px;
+        width: 40.833335876464844px;
+        border-radius: 0px;
+        color: #C87E5D;
+        margin-top: 10px;
+        }
+    
+    .botonWhatsapp{
+        
+        background-color: #CDC8AF;
+        width: 866px;
+        height: 108px;
+        left: 206px;
+        top: 240px;
+        border-radius: 12px;
+        border-style: hidden;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    
+    .textoBotonWhatsapp{
+        display: inline;
+        text-align: start;
+    height: 40.499996185302734px;
+    top: 387px;
+    border-radius: nullpx;
+    text-align: start;
+    margin-left: 55px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+    width: 50%;
+    color: #FFFFFF;
+    
+    }
+    
+    .iconContainer2{
+        width: 50%;
+        text-align: end;
+        margin-right: 20px;
+    }
+    
+    .iconContainer1{
+        width: 50%;
+        text-align: end;
+        margin-right: 20px;
+    }
+    
+    .iconWhatsapp{
+        height: 42.5px;
+        left: 4.08349609375px;
+        top: 4.25px;
+        border-radius: 0px;
+        color: #C87E5D;
+        margin-top: 10px;
+    
+        
+    }
+    
+    .Feed{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .innerText{
+        display: inline;
+        width: 145px;
+        height: 147px;
+        background-color: #5B3619;
+    }    
+}
