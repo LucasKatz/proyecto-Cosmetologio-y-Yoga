@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button';
 
 function Clases() {
   return (
+    <div>
     <div className='cardConteiner'>
           <Card className='card'>
         <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538226/niveles_d8eimf.png" />
@@ -26,13 +27,14 @@ function Clases() {
           </Card.Text>
         </Card.Body>
       </Card>
+    </div>
 
-      <div className="d-grid gap-2">
+    <div className="d-grid gap-2">
       <Button className='claseButton'  size="lg">
-       ¡Reserva tu clase de prueba!
+        ¡Reserva tu clase de prueba!
       </Button>
     </div>
-    </div>
+</div>
   );
 }
 
