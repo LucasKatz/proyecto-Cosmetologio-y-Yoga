@@ -1,0 +1,51 @@
+.cardConteiner{
+    background-image: url(../assets/fondo-waves.svg);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 700px;
+}
+
+.card {
+    background-color: red;
+    border-style: none;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    height: fit-content;
+}
+
+.picture{
+    height: 180px;
+    width: 100px;
+}
+
+.cardBody{
+    background: $color2;
+    width: 100%;
+}
+
+.texto{
+    text-align: center;
+    text-decoration: none;
+    font-family: Gilroy;
+    font-size: 35px;
+    font-weight: $extra-bold;
+    line-height: 53px;
+    letter-spacing: -0.019em;
+}
+
+
+#Yoga{
+    color: $white
+}
+
+#Talleres{
+    color:$white
+}
+.claseButton{
+    background-color: $color1;
+    width: 540px;
+    height: 81px;
+    border-style: none;
+}
