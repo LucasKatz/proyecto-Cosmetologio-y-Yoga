@@ -30,8 +30,8 @@ function Clases() {
     </div>
 
     <div className="d-grid gap-2" id='yogaConteiner'>
-      <Button className='claseButton'  size="lg">
-       <p className='reserva'> ¡Reserva tu clase de prueba!</p>
+      <Button className='claseButton' id="btnReserva"  size="lg">
+        <p className='reserva'> ¡Reserva tu clase de prueba!</p>
       </Button>
     </div>
 </div>

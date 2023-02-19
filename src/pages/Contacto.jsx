@@ -34,10 +34,10 @@ function Contacto() {
         <div>
             <div className="Feed">
                 
-                <div className="innerText">REEL DE INSTAGRAM</div> 
-                <div className="innerText">REEL DE INSTAGRAM</div> 
-                <div className="innerText">REEL DE INSTAGRAM</div> 
-                <div className="innerText">REEL DE INSTAGRAM</div> 
+                <div className="innerText"><img src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834659/body-and-mind_2-S_ypjn3a.jpg" alt="" /></div> 
+                <div className="innerText"><img src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834659/body-and-mind_1-S_i5a2x2.jpg" alt="" /></div> 
+                <div className="innerText"><img src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834660/body-and-mind_4-S_qjbprn.jpg" alt="" /></div> 
+                <div className="innerText"><img src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834660/body-and-mind_3-S_tdrztc.jpg" alt="" /></div> 
             
             </div>
         </div>

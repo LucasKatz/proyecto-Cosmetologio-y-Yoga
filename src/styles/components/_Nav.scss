@@ -79,9 +79,18 @@ nav {
     background-size: 0% 4px;
   }
 
-  @media (max-width: 438px){
+  @media (max-width: 360px){
 
     .logo{
       overflow: hidden;
+    }
+
+    .btnConteiner{
+      width: 50%;
+    }
+
+    .linkConteiner{
+      width: 50%;
+      background-color: white;
     }
   }

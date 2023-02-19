@@ -16,7 +16,7 @@ function Clases() {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538242/talleres_qan5wh.png" />
+        <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834018/feedHome_zpm8zu.jpg" />
         <Card.Body className='cardBody'>
           <Card.Text  className='texto'>
           <Link id='Talleres' className='Link' to="/Talleres">Talleres</Link>
