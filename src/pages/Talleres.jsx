@@ -11,7 +11,7 @@ function Clases() {
         <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538226/niveles_d8eimf.png" />
         <Card.Body className='cardBody'>
           <Card.Text className='texto'>
-            <Link  className='Link' to="/Guasha" >Guasha</Link>  
+            <Link  className='Link' id='guasha' to="/Guasha" >Guasha</Link>  
           </Card.Text>
         </Card.Body>
       </Card>
@@ -19,7 +19,7 @@ function Clases() {
         <Card.Img className='picture' variant="top" src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675359391/skincare_nkjrnk.png" />
         <Card.Body className='cardBody'>
           <Card.Text  className='texto'>
-          <Link  className='Link' to="/Skincare">Skincare</Link>
+          <Link  className='Link' id='skincare' to="/Skincare">Skincare</Link>
           </Card.Text>
         </Card.Body>
       </Card>

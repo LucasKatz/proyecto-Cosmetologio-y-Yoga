@@ -15,7 +15,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 40px;
 line-height: 150%;
-/* identical to box height, or 60px */
+
 
 letter-spacing: -0.019em;
 text-transform: capitalize;
@@ -47,6 +47,7 @@ color: #5B3619;
     border-style: hidden;
     margin-right: 40px;
 }
+
 
 .textoBotonInstagram{
     display: inline;
