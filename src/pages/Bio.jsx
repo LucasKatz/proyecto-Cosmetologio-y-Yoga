@@ -1,9 +1,11 @@
+
+
 function Bio() {
-  return (
-    <div>
-      <h1>Pagina de Bio</h1>
-    </div>
-  );
+ return (
+   <div>       
+    <p>Aqui va la Bio</p>
+   </div>
+ )
 }
 
-export default Bio;
+export default Bio

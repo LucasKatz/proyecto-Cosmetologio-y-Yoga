@@ -1,0 +1,106 @@
+.homeConteiner{
+    height: 1170px;
+    display: grid;
+    place-items: center;
+}
+
+.infoHome{
+    background-image: url('../assets/fondo-waves.svg');
+    background-size:cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.vision{
+    display: grid;
+    place-items: center;
+    width: 50%;
+    color: #5B3619;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.testimonios{
+    display: grid;
+    place-items: center;
+    width: 50%;
+    color: #5B3619;
+    text-align: center;
+}
+
+.picturesHome{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.FeedHome{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.innerTextHome{
+    display: inline;
+    width: 145px;
+    height: 147px;
+    background-color: #5B3619;
+    margin-bottom: 35px; 
+}
+
+
+/* Responsive */
+
+@media (max-width: 360px){
+
+    .infoHome{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-position: center;
+        width: fit-content;
+        height: 1000px;
+    }
+
+    .vision{
+        display: grid;
+        place-items: center;
+        color: #5B3619;
+        text-align: center;
+
+    }
+    
+    .testimonios{
+        display: grid;
+        place-items: center;
+        color: #5B3619;
+        text-align: center;
+    }
+
+    .FeedHome{
+        margin-top: 50px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .picturesHome{
+        width:100%;
+        margin-bottom: 30px;
+        margin: auto;
+    }
+
+    .innerTextHome{
+        display: inline;
+        width: 74px;
+        height: 81px;
+        background-color: #5B3619;
+        margin-bottom: 35px; 
+    }
+    
+ 
+
+}

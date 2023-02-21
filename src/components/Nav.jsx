@@ -1,44 +1,42 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { NavLink, Link } from "react-router-dom";
-import "../components/Nav.css";
+import { NavLink } from "react-router-dom";
 
-const NavBar = () => {
+function CollapsibleExample() {
   return (
-    <>
-      <Navbar bg="dark" className="navegador" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              className="logo"
-              src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
-            />
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            <div className="contenedorLinks">
-              <NavLink as={Link} className="Link" to="/">
-                Home
-              </NavLink>
-              <NavLink as={Link} className="Link" to="/Clases">
-                Clases
-              </NavLink>
-              <NavLink as={Link} className="Link" to="/Bio">
-                Bio
-              </NavLink>
-              <NavLink as={Link} className="Link" to="/Info">
-                Info
-              </NavLink>
-              <NavLink as={Link} className="Link" to="/Contacto">
-                Contacto
-              </NavLink>
-            </div>
+    <Navbar collapseOnSelect className="navegador" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            className="logo"
+            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse className="btnConteiner" id="responsive-navbar-nav">
+          <Nav className="linkConteiner">
+            <NavLink className="Link" to="/">
+              Home
+            </NavLink>
+            <NavLink className="Link" to="/Bio">
+              Bio
+            </NavLink>
+            <NavLink className="Link" to="/Clases">
+              Clases
+            </NavLink>
+            <NavLink className="Link" to="/Info">
+              Info
+            </NavLink>
+            <NavLink className="Link" to="/Contacto">
+              Contacto
+            </NavLink>
           </Nav>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
+}
 
-export default NavBar;
+export default CollapsibleExample;
