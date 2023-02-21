@@ -2,15 +2,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Footer, NavBar } from "./components";
-import Bio from "./pages/Bio";
-import Clases from "./pages/Clases";
-import Contacto from "./pages/Contacto";
-import Home from "./pages/Home";
-import Info from "./pages/Info";
-import Talleres from "./pages/Talleres";
-import Yoga from "./pages/Yoga";
 
 import "../src/styles/style.css";
+import { Bio, Clases, Contacto, Home, Info, Talleres, Yoga } from "./pages";
 
 function App() {
   return (
