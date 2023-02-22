@@ -1,8 +1,8 @@
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Footer, NavBar } from "./components";
-
 import "../src/styles/style.css";
 import { Bio, Clases, Contacto, Home, Info, Talleres, Yoga } from "./pages";
 

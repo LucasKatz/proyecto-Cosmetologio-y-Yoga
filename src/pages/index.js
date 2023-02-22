@@ -5,5 +5,3 @@ export { default as Home } from "./Home";
 export { default as Info } from "./Info";
 export { default as Talleres } from "./Talleres";
 export { default as Yoga } from "./Yoga";
-export * from "./index";
-
