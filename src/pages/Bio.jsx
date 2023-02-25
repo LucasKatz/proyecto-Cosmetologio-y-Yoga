@@ -1,4 +1,4 @@
-import { Button, Col, Container, Figure, Row } from "react-bootstrap";
+import { Button, Figure } from "react-bootstrap";
 
 function Bio() {
   return (
