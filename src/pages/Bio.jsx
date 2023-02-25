@@ -13,7 +13,7 @@ function Bio() {
         </div>
         <div
           className="col-12 col-md-6 text-center pt-4"
-          style={{ width: "26rem", fontSize: "1.5rem" }}
+          style={{ width: "26rem", fontSize: "1.5rem " }}
         >
           <h2>
             <strong style={{ color: "#5B3619" }}>Daniela</strong>
