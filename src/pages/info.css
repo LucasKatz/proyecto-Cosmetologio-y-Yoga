@@ -1,0 +1,16 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.ButtonS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LinkB{
+    margin:10px;
+    padding: 0px;
+}

@@ -5,3 +5,6 @@ export { default as Home } from "./Home";
 export { default as Info } from "./Info";
 export { default as Talleres } from "./Talleres";
 export { default as Yoga } from "./Yoga";
+export { default as SYoga } from "./SYoga";
+export { default as SGuasha } from "./SGuasha";
+export { default as SSkincare } from "./SSkincare";

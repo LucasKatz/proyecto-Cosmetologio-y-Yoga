@@ -16,7 +16,7 @@ function Bio() {
           style={{ width: "26rem", fontSize: "1.5rem " }}
         >
           <h2>
-            <strong style={{ color: "#5B3619" }}>Daniela</strong>
+            <strong style={{ color: "#5B3619" }}>Hola, soy Daniela</strong>
           </h2>
           <p className="text-center m-0 ">
             <strong style={{ color: "#5B3619" }}>
@@ -24,8 +24,8 @@ function Bio() {
             </strong>
           </p>
           <p>
-            me considero una eterna aprendiz, familiera, amante de las
-            aventuras, la naturaleza y el deporte.
+            Me considero una eterna aprendiz,
+            familiera, amante de las aventuras, la naturaleza y el deporte.
           </p>
         </div>
       </section>
@@ -137,14 +137,17 @@ function Bio() {
       <div>
         <div className="container mt-5">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-12">
-              <Button
-                className="w-100"
-                size="lg"
-                style={{ backgroundColor: "#C87E5D", border: "none" }}
-              >
-                &iquest;Y si hablamos?
-              </Button>
+            <div className="col-lg-10 col-md-12">
+            <Button className="botonWhatsapp">
+          <a
+            className="href"
+            href="https://api.whatsapp.com/send?phone=5493434667572"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <p className="textoBotonReser text-center">Y si hablamos?</p>
+          </a>
+        </Button>
             </div>
           </div>
         </div>

@@ -1,36 +1,31 @@
-// Import Swiper React components
+import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-
-// Import Swiper styles
+// eslint-disable-next-line import/no-unresolved
 import "swiper/css";
+// eslint-disable-next-line import/no-unresolved
+import "swiper/css/pagination";
 import "./info.css";
-
 import Carousel from "react-bootstrap/Carousel";
 import { Col, Row, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Info() {
   const data = [
     {
       id: 1,
       title: "¿Qué significa “Holístico”?",
-      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”"
+      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”",
     },
     {
       id: 2,
       title: "¿Por dónde empezamos?",
-      text: " Estoy aquí para que juntos aprendamos técnicas para nutrir nuestro cuerpo, interior y exteriormente."
+      text: " Estoy aquí para que juntos aprendamos técnicas para nutrir nuestro cuerpo, interior y exteriormente.",
     },
     {
       id: 3,
       title: "¿Por qué “Holístico” es importante?",
-      text: " Porque es en donde trabajaremos nuestro cuerpo físico, las emociones y los pensamientos a través de las posturas (asanas), la relajación y la meditación"
+      text: " Porque es en donde trabajaremos nuestro cuerpo físico, las emociones y los pensamientos a través de las posturas (asanas), la relajación y la meditación",
     },
-    {
-      id: 4,
-      title: "¿Qué significa “Holístico”?",
-      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”"
-    }
   ];
 
   return (
@@ -46,13 +41,19 @@ function Info() {
         </Carousel.Item>
       </Carousel>
       <div>
-        <Swiper className="mySwiper">
+        <Swiper
+          navigation
+          className="mySwiper text-center"
+          modules={[Pagination]}
+          slidesPerView={1}
+          spaceBetween={50}
+        >
           {data.map((item, key) => (
-            <SwiperSlide key={key}>
+            <SwiperSlide key={key} className="banner">
               <Row>
                 <Col>
-                <h2>{item.title}</h2>
-                <p>{item.text}</p>
+                  <h2>{item.title}</h2>
+                  <p>{item.text}</p>
                 </Col>
               </Row>
             </SwiperSlide>
@@ -60,19 +61,20 @@ function Info() {
         </Swiper>
       </div>
 
-      <div className="Button-grl">
-      <Button className="botonInstagram">
-          <a>
-            <p className="textoBotonInstagram">@holistic.bodyandmind</p>
-            <div className="iconContainer1">
-               />
-            </div>
-          </a>
-        </Button>
-      </div>
+      <div className="ButtonS">
+        <Link className="LinkB" id="SYoga" to="/SYoga">
+          <Button className="botonInstagram">Sobre Yoga</Button>
+        </Link>
 
+        <Link className="LinkB" id="SGuasha" to="/SGuasha">
+          <Button className="botonInstagram">Sobre Gua Sha</Button>
+        </Link>
+
+        <Link className="LinkB" id="SSkincare" to="/SSkincare">
+          <Button className="botonInstagram">Sobre Skincare</Button>
+        </Link>
+      </div>
     </div>
-    
   );
 }
 export default Info;
