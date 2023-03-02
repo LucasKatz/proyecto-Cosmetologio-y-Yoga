@@ -1,5 +1,5 @@
 .homeConteiner{
-    height: 1170px;
+    height: 1250px;
     display: grid;
     place-items: center;
 }
@@ -55,6 +55,10 @@
 /* Responsive */
 
 @media (max-width: 360px){
+
+    .homeConteiner{
+        height: 1170px;
+    }
 
     .infoHome{
         display: grid;

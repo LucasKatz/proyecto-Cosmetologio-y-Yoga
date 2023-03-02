@@ -50,10 +50,17 @@ function Home() {
         <div className="testimonios">
           <h1>Testimonios</h1>
           <p className="miVisionTexto">
-            Mi propósito es ayudarte a crear <span>tu mejor versión</span>: con
-            prácticas de yoga adecuadas a tus tiempos y adaptadas a lo que
-            necesites combinadas con técnicas de cuidados corporales amables.{" "}
+            Como trabajo en la computadora todo el dia, me ayudo a estar mas consciente de mi cuerpo y tomarme el tiempo para hacer algunos estiramientos cuando lo necesito{" "}
+            </p>
+
+          <p className="miVisionTexto">
+            Siento menos dolor de espalda. Me ayudo a mejorar mi postura{" "}
           </p>
+
+          <p className="miVisionTexto">
+            A través del yoga, pude afrontar situaciones estresantes de forma mas positiva{" "}
+          </p>
+          
         </div>
         <div className="picturesHome">
           <div className="FeedHome">
