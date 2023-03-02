@@ -72,6 +72,7 @@ function Home() {
                 target="_blank"
               >
                 <img
+                  id ="homeImg"
                   alt=""
                   src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834659/body-and-mind_2-S_ypjn3a.jpg"
                 />
@@ -85,6 +86,7 @@ function Home() {
                 target="_blank"
               >
                 <img
+                  id ="homeImg"
                   alt=""
                   src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834659/body-and-mind_1-S_i5a2x2.jpg"
                 />
@@ -98,6 +100,7 @@ function Home() {
                 target="_blank"
               >
                 <img
+                  id ="homeImg"
                   alt=""
                   src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834660/body-and-mind_4-S_qjbprn.jpg"
                 />
@@ -111,6 +114,7 @@ function Home() {
                 target="_blank"
               >
                 <img
+                  id ="homeImg"
                   alt=""
                   src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834018/FeedIg3_dywt3g.jpg"
                 />

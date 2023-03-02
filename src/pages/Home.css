@@ -43,15 +43,6 @@
     justify-content: space-evenly;
 }
 
-.innerTextHome{
-    display: inline;
-    width: 145px;
-    height: 147px;
-    background-color: #5B3619;
-    margin-bottom: 35px; 
-}
-
-
 /* Responsive */
 
 @media (max-width: 360px){
@@ -65,7 +56,6 @@
         place-items: center;
         text-align: center;
         background-position: center;
-        width: fit-content;
         height: 1000px;
     }
 
@@ -97,14 +87,11 @@
         margin: auto;
     }
 
-    .innerTextHome{
+    #homeImg{
         display: inline;
-        width: 74px;
-        height: 81px;
-        background-color: #5B3619;
+        width: 90%;
+        height: 90%;
         margin-bottom: 35px; 
     }
-    
- 
 
 }

@@ -135,13 +135,6 @@ color: #FFFFFF;
     justify-content: space-evenly;
 }
 
-.innerText{
-    display: inline;
-    width: 145px;
-    height: 147px;
-    background-color: #5B3619;
-    
-}
 
 
 @media (max-width: 360px){
@@ -152,7 +145,7 @@ color: #FFFFFF;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        height: 450px;
+        height: 420px;
     }
     
 
@@ -260,12 +253,13 @@ color: #FFFFFF;
         justify-content: space-evenly;
     }
     
-    .innerText{
-        display: inline;
-        width: 69px;
-        height: 69px;
-        background-color: #5B3619;
-    }    
+    #contactosImg{
+            display: inline;
+            width: 90%;
+            height: 90%;
+            margin-bottom: 35px; 
+        }
+    
 
     .claseButton{
         width: 270px;
