@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/holistic.bodyandmind/" rel="noopener noreferrer" target="_blank">
             <FontAwesomeIcon className="rrss_social-icon" icon={faInstagram} />
           </a>
-          <a href="https://wa.me/+numero" rel="noopener noreferrer" target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=5493434667572"rel="noopener noreferrer" target="_blank">
             <FontAwesomeIcon className="rrss_social-icon" icon={faWhatsapp} />
           </a>
         </div>

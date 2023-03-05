@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 
 function Clases() {
   return (
+    <div>
+    <div className="titulo">
+            <h1 className="titleClases"> Talleres </h1>
+        </div>
     <div className="cardConteiner">
       <Card className="card">
         <Card.Img
@@ -33,6 +37,7 @@ function Clases() {
           </Card.Text>
         </Card.Body>
       </Card>
+    </div>
     </div>
   );
 }

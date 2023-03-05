@@ -6,6 +6,9 @@ import Button from "react-bootstrap/Button";
 function Clases() {
   return (
     <div>
+        <div className="titulo">
+            <h1 className="titleClases"> Yoga </h1>
+        </div>
       <div className="cardConteiner">
         <Card className="card">
           <Card.Img

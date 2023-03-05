@@ -1,3 +1,4 @@
+
 .cardConteiner{
     background-image: url(../assets/fondo-waves.svg);
     background-size: cover;
@@ -6,12 +7,30 @@
     height: 700px;
 }
 
-.card {
-    background-color: red;
-    border-style: none;
-    width: 50%;
+.titulo{
     display: grid;
     place-items: center;
+    margin-top: 20px;
+}
+
+.titleClases{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;  
+    color: #5B3619;
+    width: 120px;
+    height: 60px;
+}
+
+.card {
+    border-style: none;
+    width: 731px;
+    height: 381px;
+    display: grid;
+    place-items: center;
+
     height: fit-content;
 }
 
@@ -88,4 +107,33 @@ margin-bottom: 25px;
     font-weight: 800;
     line-height: 53px;
     letter-spacing: -0.019em;
+}
+
+
+@media (max-width: 360px){
+.cardConteiner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 770px;
+}
+
+.titleClases{
+    width: 96px;
+    height: 48px;
+}
+
+.card {
+    margin-top: -130px;
+    width: 328px;
+    height: 171px;
+}
+
+.reserva{
+    font-size: 18px;
+    position: absolute;
+    line-height: 150%;
+}
+
+
 }
