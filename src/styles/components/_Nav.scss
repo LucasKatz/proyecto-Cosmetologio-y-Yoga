@@ -80,7 +80,9 @@ nav {
   }
 
   @media (max-width: 360px){
-
+    .navegador{
+      z-index: 3;
+    }
     .logo{
       overflow: hidden;
     }
@@ -92,6 +94,9 @@ nav {
       height: 641px;
       background-image: url(/src/assets/menu-lateral.png);
       background-color: #F0D8CE;
-      z-index: 1;
+    }
+
+    .Link{
+      font-size: 20px;
     }
   }

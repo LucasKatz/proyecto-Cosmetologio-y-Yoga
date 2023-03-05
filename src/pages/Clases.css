@@ -1,7 +1,8 @@
 
 .cardConteiner{
     background-image: url(../assets/fondo-waves.svg);
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     display: grid;
     place-items: center;
     height: 700px;
