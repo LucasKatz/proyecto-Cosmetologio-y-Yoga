@@ -89,30 +89,30 @@ color: #5B3619;
 .textoBotonWhatsapp{
     display: inline;
     text-align: start;
-height: 40.499996185302734px;
-top: 387px;
-border-radius: nullpx;
-text-align: start;
-margin-left: 55px;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 150%;
-letter-spacing: -0.019em;
-text-transform: capitalize;
-width: 50%;
-color: #FFFFFF;
+    height: 40.499996185302734px;
+    top: 387px;
+    border-radius: nullpx;
+    text-align: start;
+    margin-left: 55px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+    width: 50%;
+    color: #FFFFFF;
 
 }
 
-.iconContainer2{
+.iconContainer1{
     width: 50%;
     text-align: end;
     margin-right: 20px;
 }
 
-.iconContainer1{
+.iconContainer2{
     width: 50%;
     text-align: end;
     margin-right: 20px;
@@ -186,6 +186,7 @@ color: #FFFFFF;
         margin-left: 15px;
         font-size: 20px;
         width: 50%;
+        height: 60px;
     }
     
     
@@ -194,7 +195,9 @@ color: #FFFFFF;
         width: 30px;
         border-radius: 0px;
         color: #C87E5D;
-        margin-top: 10px;
+        margin: auto;
+        margin-left: 90px;
+        margin-top: 19px;
         }
     
     .botonWhatsapp{
@@ -213,22 +216,22 @@ color: #FFFFFF;
         margin-left: 15px;
         font-size: 20px;
         width: 50%;
+        height: 60px;
     }
     
     .iconContainer1{
         display: grid;
         place-items: end;
-        margin-bottom: 50%;
         width: 50%;
         margin-right: 20px;
+        height: 60px;
     }
     
     .iconContainer2{
         display: grid;
         place-items: end;
-        margin-bottom: 50%;
         width: 50%;
-        margin-right: 20px;
+        height: 60px;
     }
     
     .iconWhatsapp{
@@ -238,11 +241,12 @@ color: #FFFFFF;
         top: 4.25px;
         border-radius: 0px;
         color: #C87E5D;
-        margin-top: 10px;   
+        margin: auto;
+        margin-left: 120px;
+     
     }
     
     .Feed{
-        
         display: flex;
         justify-content: space-evenly;
     }
