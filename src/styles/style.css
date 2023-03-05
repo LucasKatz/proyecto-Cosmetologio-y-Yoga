@@ -138,12 +138,14 @@ nav .boton {
   .logo {
     overflow: hidden;
   }
-  .btnConteiner {
-    width: 50%;
-  }
   .linkConteiner {
-    width: 50%;
-    background-color: white;
+    display: grid;
+    place-items: center;
+    width: 260px;
+    height: 641px;
+    background-image: url(/src/assets/menu-lateral.png);
+    background-color: #F0D8CE;
+    z-index: 1;
   }
 }
 /**IMPORT Pages *//*# sourceMappingURL=style.css.map */

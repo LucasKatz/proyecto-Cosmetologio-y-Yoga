@@ -61,27 +61,51 @@ width: 100%;
 }
 
 #Yoga{
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 #Talleres{
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 #skincare{
-    color: #FFFFFF 
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px; 
 }
 
 #guasha{
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 #niveles{
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 #personalizadas{
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 .claseButton{
@@ -107,6 +131,11 @@ margin-bottom: 25px;
     font-weight: 800;
     line-height: 53px;
     letter-spacing: -0.019em;
+    color: #FFFFFF;
+}
+
+.linkReserva{
+    text-decoration: none;
 }
 
 
@@ -134,6 +163,31 @@ margin-bottom: 25px;
     position: absolute;
     line-height: 150%;
 }
+
+#Yoga{
+    font-size: 35px;
+}
+
+#Talleres{
+    font-size: 35px;
+}
+
+#skincare{
+    font-size: 35px; 
+}
+
+#guasha{
+    font-size: 35px;
+}
+
+#niveles{
+    font-size: 35px;
+}
+
+#personalizadas{
+    font-size: 35px;
+}
+
 
 
 }

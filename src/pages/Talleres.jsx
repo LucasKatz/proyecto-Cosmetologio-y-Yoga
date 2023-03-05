@@ -17,7 +17,7 @@ function Clases() {
         />
         <Card.Body className="cardBody">
           <Card.Text className="texto">
-            <Link className="Link" id="guasha" to="/Guasha">
+            <Link className="Link" id="guasha" to="/SGuasha">
               Guasha
             </Link>
           </Card.Text>
@@ -31,7 +31,7 @@ function Clases() {
         />
         <Card.Body className="cardBody">
           <Card.Text className="texto">
-            <Link className="Link" id="skincare" to="/Skincare">
+            <Link className="Link" id="skincare" to="/SSkincare">
               Skincare
             </Link>
           </Card.Text>

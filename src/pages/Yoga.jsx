@@ -42,7 +42,12 @@ function Clases() {
 
       <div className="d-grid gap-2" id="yogaConteiner">
         <Button className="claseButton" id="btnReserva" size="lg">
-          <p className="reserva"> ¡Reserva tu clase de prueba!</p>
+          <a     className="href"
+            href="https://api.whatsapp.com/send?phone=5493434667572"
+            rel="noopener noreferrer"
+            target="_blank">
+            <p className="reserva"> ¡Reserva tu clase de prueba!</p>
+          </a>
         </Button>
       </div>
     </div>

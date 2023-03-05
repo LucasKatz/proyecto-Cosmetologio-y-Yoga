@@ -139,6 +139,10 @@ color: #FFFFFF;
 
 @media (max-width: 360px){
 
+    .contenedorBody{
+    
+    }
+
     .body{
         width: 100%;
         background-image: url(../assets/pink.wave.svg);
@@ -148,6 +152,13 @@ color: #FFFFFF;
         height: 420px;
     }
     
+
+    .href1{
+        text-decoration: none;
+        display: flex;
+        justify-content:space-evenly;
+        width:100%
+    }
 
     .href{
         text-decoration: none;
@@ -166,80 +177,63 @@ color: #FFFFFF;
         border-radius: 12px;
         border-style: hidden;
         margin-right: 40px;
+        margin: auto;
     }
     
     .textoBotonInstagram{
-        display: inline;
-        height: 40.499996185302734px;
-        top: 263px;
+        display: grid;
+        place-items: center;
         margin-left: 15px;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 800;
         font-size: 20px;
-        line-height: 150%;
-        letter-spacing: -0.019em;
-        color: #FFFFFF;
         width: 50%;
     }
     
     
     .iconInstagram{
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
         border-radius: 0px;
         color: #C87E5D;
         margin-top: 10px;
         }
     
     .botonWhatsapp{
-        
-        background-color: #CDC8AF;
         width: 328px;
         height: 80px;
         left: 206px;
         top: 240px;
-        border-radius: 12px;
-        border-style: hidden;
-        margin-right: 40px;
+        margin: auto;
         margin-top: 20px;
     }
     
     .textoBotonWhatsapp{
-        display: inline;
-        text-align: start;
-        height: 40.499996185302734px;
+        display: grid;
+        place-items: center;
         top: 387px;
-        border-radius: nullpx;
-        text-align: start;
         margin-left: 15px;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 800;
         font-size: 20px;
-        line-height: 150%;
-        letter-spacing: -0.019em;
-        text-transform: capitalize;
         width: 50%;
-        color: #FFFFFF;
-    
-    }
-    
-    .iconContainer2{
-        width: 50%;
-        text-align: end;
-        margin-right: 20px;
     }
     
     .iconContainer1{
+        display: grid;
+        place-items: end;
+        margin-bottom: 50%;
         width: 50%;
-        text-align: end;
+        margin-right: 20px;
+    }
+    
+    .iconContainer2{
+        display: grid;
+        place-items: end;
+        margin-bottom: 50%;
+        width: 50%;
         margin-right: 20px;
     }
     
     .iconWhatsapp{
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
         left: 4.08349609375px;
         top: 4.25px;
         border-radius: 0px;
