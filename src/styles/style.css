@@ -134,9 +134,13 @@ nav .boton {
   background-size: 0% 4px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 990px) {
   .navegador {
     z-index: 3;
+  }
+
+  .navbar-collapse{
+    display: flex;
   }
   .logo {
     overflow: hidden;
