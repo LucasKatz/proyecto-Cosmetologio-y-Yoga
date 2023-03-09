@@ -20,7 +20,7 @@ function Contacto() {
             <div className="iconContainer1">
               <FontAwesomeIcon className="iconInstagram" icon={faInstagram} />
             </div>
-          </a>
+          </a>          
         </Button>
 
         <Button className="botonWhatsapp">

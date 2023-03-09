@@ -3,12 +3,19 @@
   align-items: center;
   justify-content: center;
   margin-top: 5px;
+  height: 550px;
+  max-width: 550px;
+}
+
+.containerBackground {
   background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678274666/Ellipse_41_o0w3xp.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 550px;
+  /* Para mover img tocar el postion o el size */
+  
 }
+ 
 
 .ButtonS {
   display: flex;
