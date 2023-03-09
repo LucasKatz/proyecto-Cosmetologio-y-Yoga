@@ -1,16 +1,22 @@
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-}
-.ButtonS{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678274666/Ellipse_41_o0w3xp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 550px;
 }
 
-.LinkB{
-    margin:10px;
-    padding: 0px;
+.ButtonS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LinkB {
+  margin: 10px;
+  padding: 0px;
 }

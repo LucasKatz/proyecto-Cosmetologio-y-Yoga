@@ -34,7 +34,7 @@ function Info() {
         <Carousel.Item>
           <img
             alt="First slide"
-            className="d-block w-100"
+            className="image d-block w-100"
             id="slide"
             src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676209487/carrousel3_t4zhnk.jpg"
           />
@@ -62,7 +62,8 @@ function Info() {
       </div>
 
       <div className="ButtonS">
-        <Link className="LinkB" id="SYoga" to="/SYoga">
+
+      <Link className="LinkB" id="SYoga" to="/SYoga">
           <Button className="botonInstagram">Sobre Yoga</Button>
         </Link>
 
