@@ -6,3 +6,22 @@
     height: 700px;
     width: 100%;
 }
+
+.hero{
+    background-color: rgba(0, 0, 0, 0.1);
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+	padding: 8.9rem 0 0 8.9rem;
+}
+
+.hero__video {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+}

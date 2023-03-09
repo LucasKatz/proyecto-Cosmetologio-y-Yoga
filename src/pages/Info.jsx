@@ -14,18 +14,18 @@ function Info() {
     {
       id: 1,
       title: "¿Qué significa “Holístico”?",
-      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”",
+      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”"
     },
     {
       id: 2,
       title: "¿Por dónde empezamos?",
-      text: " Estoy aquí para que juntos aprendamos técnicas para nutrir nuestro cuerpo, interior y exteriormente.",
+      text: " Estoy aquí para que juntos aprendamos técnicas para nutrir nuestro cuerpo, interior y exteriormente."
     },
     {
       id: 3,
       title: "¿Por qué “Holístico” es importante?",
-      text: " Porque es en donde trabajaremos nuestro cuerpo físico, las emociones y los pensamientos a través de las posturas (asanas), la relajación y la meditación",
-    },
+      text: " Porque es en donde trabajaremos nuestro cuerpo físico, las emociones y los pensamientos a través de las posturas (asanas), la relajación y la meditación"
+    }
   ];
 
   return (
@@ -62,8 +62,7 @@ function Info() {
       </div>
 
       <div className="ButtonS">
-
-      <Link className="LinkB" id="SYoga" to="/SYoga">
+        <Link className="LinkB" id="SYoga" to="/SYoga">
           <Button className="botonInstagram">Sobre Yoga</Button>
         </Link>
 
@@ -74,7 +73,9 @@ function Info() {
         <Link className="LinkB" id="SSkincare" to="/SSkincare">
           <Button className="botonInstagram">Sobre Skincare</Button>
         </Link>
+       
       </div>
+      
     </div>
   );
 }
