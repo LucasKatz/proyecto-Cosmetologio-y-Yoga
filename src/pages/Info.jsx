@@ -34,36 +34,52 @@ function Info() {
         <Carousel.Item>
           <img
             alt="First slide"
-            className="d-block w-100"
+            className="image d-block w-100"
             id="slide"
             src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676209487/carrousel3_t4zhnk.jpg"
           />
         </Carousel.Item>
       </Carousel>
-      <div>
-        <Swiper
-          navigation
-          className="mySwiper text-center"
-          modules={[Pagination]}
-          slidesPerView={1}
-          spaceBetween={50}
-        >
-          {data.map((item, key) => (
-            <SwiperSlide key={key} className="banner">
-              <Row>
-                <Col>
-                  <h2>{item.title}</h2>
-                  <p>{item.text}</p>
-                </Col>
-              </Row>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      <div className="containerBackground">
+        <div>
+          <Swiper
+            navigation
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            className="mySwiper text-center"
+            modules={[Pagination]}
+            pagination={{
+              clickable: true,
+            }}
+            slidesPerView={1}
+            spaceBetween={50}
+          >
+            {data.map((item, key) => (
+              <SwiperSlide key={key} className="banner">
+                <Row>
+                  <Col>
+                    <h2>{item.title}</h2>
+                    <p>{item.text}</p>
+                  </Col>
+                </Row>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
-
       <div className="ButtonS">
-        <Link className="LinkB" id="SYoga" to="/SYoga">
-          <Button className="botonInstagram">Sobre Yoga</Button>
+        <Link
+          className="LinkBS botonInstagram d-flex flex-row justify-content-between align-items-center"
+          id="SYoga"
+          to="/SYoga"
+        >
+          <span className="ml-5">Sobre Yoga</span>
+          <img
+            alt="pp"
+            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Group_s6xkji.png"
+          />
         </Link>
 
         <Link className="LinkB" id="SGuasha" to="/SGuasha">

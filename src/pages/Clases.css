@@ -1,8 +1,9 @@
 
 .cardConteiner{
-    background-image: url(../assets/fondo-waves.svg);
+    background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678366755/fondo_1_vpbhac.png");
     background-size:cover;
     background-repeat: no-repeat;
+    object-fit: contain;
     display: grid;
     place-items: center;
     height: 700px;

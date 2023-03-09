@@ -14,6 +14,8 @@ import {
   SYoga,
   SGuasha,
   SSkincare,
+  Personalizadas,
+  Niveles
 } from "./pages";
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route element={<SYoga />} path="/SYoga" />
         <Route element={<SGuasha />} path="/SGuasha" />
         <Route element={<SSkincare />} path="/SSkincare" />
+        <Route element={<Personalizadas />} path="/Personalizadas" />
+        <Route element={<Niveles />} path="/Niveles" />
       </Routes>
       <Footer />
     </BrowserRouter>

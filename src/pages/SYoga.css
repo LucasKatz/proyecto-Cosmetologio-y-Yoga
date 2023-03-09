@@ -1,50 +1,31 @@
-.textoBotonReser {
-  display: inline;
-  text-align: start;
-  height: 40px;
-  top: 387px;
-  border-radius: nullpx;
-  text-align: start;
-  margin-left: 55px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 150%;
-  letter-spacing: -0.019em;
-  text-transform: capitalize;
-  width: 50%;
-  color: #ffffff;
-}
-
-.Parrafo {
-  background-color: rosybrown;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 100;
-  font-size: 35px;
-  line-height: 150%;
-  text-align: center;
-  letter-spacing: -0.019em;
-  color: #ffffff;
-}
-
-.BotonWhatsapp{
+.parrafoSY {
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  height: 65px;
-  top: 387px;
-  border-radius: nullpx;
-  text-align: start;
-  margin-left: 15px;
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 200;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: -0.019em;
-  text-transform: capitalize;
-  width: 60%;
-  color: #FFFFFF;
+  flex-direction: column;
+  background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678341367/banner_amxmuc-removebg_cqq494.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 100% auto;
+  height: 500px;
+  width: 100%;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 8.9rem 0 0 8.9rem;
+}
+
+.hero__video {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: fill;
 }

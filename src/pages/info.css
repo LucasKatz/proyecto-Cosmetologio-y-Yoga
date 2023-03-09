@@ -1,16 +1,26 @@
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-}
-.ButtonS{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  height: 550px;
 }
 
-.LinkB{
-    margin:10px;
-    padding: 0px;
+.containerBackground {
+  background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678336467/wave-pink_uaogfj.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 10px;
+  /* Para mover img tocar el postion o el size */
+}
+
+.ButtonS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LinkB {
+  margin: 10px;
+  padding: 0px;
 }

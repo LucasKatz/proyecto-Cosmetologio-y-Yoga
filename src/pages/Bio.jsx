@@ -24,8 +24,8 @@ function Bio() {
             </strong>
           </p>
           <p>
-            Me considero una eterna aprendiz,
-            familiera, amante de las aventuras, la naturaleza y el deporte.
+            Me considero una eterna aprendiz, familiera, amante de las
+            aventuras, la naturaleza y el deporte.
           </p>
         </div>
       </section>
@@ -69,87 +69,65 @@ function Bio() {
         </div>
       </section>
       <section>
-        <div className="container mt-5">
-          <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-12">
-              <Figure>
-                <Figure.Image
-                  alt="imgData"
-                  height={"auto"}
-                  src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105407_n5eyzf.jpg"
-                  width={300}
-                />
-              </Figure>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <Figure>
-                <Figure.Image
-                  alt="imgData"
-                  height={"auto"}
-                  src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105409_r6omre.jpg"
-                  width={300}
-                />
-              </Figure>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <Figure>
-                <Figure.Image
-                  alt="imgData"
-                  height={"auto"}
-                  src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105408_om4zkz.jpg"
-                  width={300}
-                />
-              </Figure>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <Figure>
-                <Figure.Image
-                  alt="imgData"
-                  height={"auto"}
-                  src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677361530/plants/bio/Copia-de-20221205_102715_xgs0nd.jpg"
-                  width={300}
-                />
-              </Figure>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <Figure>
-                <Figure.Image
-                  alt="imgData"
-                  height={"auto"}
-                  src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105405_pnczux.jpg"
-                  width={300}
-                />
-              </Figure>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <Figure>
-                <Figure.Image
-                  alt="imgData"
-                  height={"auto"}
-                  src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105406_r2lkci.jpg"
-                  width={300}
-                />
-              </Figure>
-            </div>
+        <div className="mt-5">
+          <div className="row justify-content-between gallery">
+            <Figure className="col-4 text-center">
+              <Figure.Image
+                alt="imgData"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105407_n5eyzf.jpg"
+                style={{ height: 280 }}
+              />
+            </Figure>
+            <Figure className="col-4 text-center">
+              <Figure.Image
+                alt="imgData"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105409_r6omre.jpg"
+                style={{ height: 280 }}
+              />
+            </Figure>
+            <Figure className="col-4 text-center">
+              <Figure.Image
+                alt="imgData"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105408_om4zkz.jpg"
+                style={{ height: 280 }}
+              />
+            </Figure>
+            <Figure className="col-4 text-center">
+              <Figure.Image
+                alt="imgData"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677361530/plants/bio/Copia-de-20221205_102715_xgs0nd.jpg"
+                style={{ height: 280 }}
+              />
+            </Figure>
+            <Figure className="col-4 text-center">
+              <Figure.Image
+                alt="imgData"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105405_pnczux.jpg"
+                style={{ height: 280 }}
+              />
+            </Figure>
+            <Figure className="col-4 text-center">
+              <Figure.Image
+                alt="imgData"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677293743/plants/bio/Copia-de-20221205_105406_r2lkci.jpg"
+                style={{ height: 280 }}
+              />
+            </Figure>
           </div>
         </div>
       </section>
       <div>
-        <div className="container mt-5">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 col-md-12">
-            <Button className="botonWhatsapp">
-          <a
-            className="href"
-            href="https://api.whatsapp.com/send?phone=5493434667572"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <p className="textoBotonReser text-center">Y si hablamos?</p>
-          </a>
-        </Button>
-            </div>
-          </div>
+        <div className="d-grid" id="yogaConteiner">
+          <Button className="claseButton" id="btnReserva" size="lg">
+            <a
+              className="href"
+              href="https://api.whatsapp.com/send?phone=5493434667572"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p className="reserva"> ¿Y si hablamos?</p>
+            </a>
+          </Button>
         </div>
       </div>
     </div>

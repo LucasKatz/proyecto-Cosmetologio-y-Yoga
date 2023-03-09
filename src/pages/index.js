@@ -8,3 +8,5 @@ export { default as Yoga } from "./Yoga";
 export { default as SYoga } from "./SYoga";
 export { default as SGuasha } from "./SGuasha";
 export { default as SSkincare } from "./SSkincare";
+export { default as Personalizadas } from "./Personalizadas";
+export { default as Niveles } from "./Niveles";

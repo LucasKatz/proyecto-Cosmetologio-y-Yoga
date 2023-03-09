@@ -26,7 +26,7 @@ function Clases() {
       <Card className="card">
         <Card.Img
           className="picture"
-          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398704/body-and-mins_731-4_if73xt.jpg"
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834018/feedHome_zpm8zu.jpg"
           variant="top"
         />
         <Card.Body className="cardBody">
