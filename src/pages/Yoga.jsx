@@ -13,7 +13,7 @@ function Clases() {
         <Card className="card">
           <Card.Img
             className="picture"
-            src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538242/talleres_qan5wh.png"
+            src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398707/body-and-mins_731-3_zpjmyr.jpg"
             variant="top"
           />
           <Card.Body className="cardBody">
@@ -27,7 +27,7 @@ function Clases() {
         <Card>
           <Card.Img
             className="picture"
-            src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1675538242/talleres_qan5wh.png"
+            src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398711/body-and-mins_731-1_nex15e.jpg"
             variant="top"
           />
           <Card.Body className="cardBody">
