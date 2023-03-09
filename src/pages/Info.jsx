@@ -14,45 +14,44 @@ function Info() {
     {
       id: 1,
       title: "¿Qué significa “Holístico”?",
-      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”"
+      text: "Es ver al cuerpo desde diferentes “ángulos”, “perspectivas”, “partes”",
     },
     {
       id: 2,
       title: "¿Por dónde empezamos?",
-      text: " Estoy aquí para que juntos aprendamos técnicas para nutrir nuestro cuerpo, interior y exteriormente."
+      text: " Estoy aquí para que juntos aprendamos técnicas para nutrir nuestro cuerpo, interior y exteriormente.",
     },
     {
       id: 3,
       title: "¿Por qué “Holístico” es importante?",
-      text: " Porque es en donde trabajaremos nuestro cuerpo físico, las emociones y los pensamientos a través de las posturas (asanas), la relajación y la meditación"
-    }
+      text: " Porque es en donde trabajaremos nuestro cuerpo físico, las emociones y los pensamientos a través de las posturas (asanas), la relajación y la meditación",
+    },
   ];
 
   return (
     <div>
+      <Carousel className="carousel" controls={false} indicators={false}>
+        <Carousel.Item>
+          <img
+            alt="First slide"
+            className="image d-block w-100"
+            id="slide"
+            src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676209487/carrousel3_t4zhnk.jpg"
+          />
+        </Carousel.Item>
+      </Carousel>
       <div className="containerBackground">
-        <Carousel className="carousel" controls={false} indicators={false}>
-          <Carousel.Item>
-            <img
-              alt="First slide"
-              className="image d-block w-100"
-              id="slide"
-              src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676209487/carrousel3_t4zhnk.jpg"
-            />
-          </Carousel.Item>
-        </Carousel>
-
         <div>
           <Swiper
             navigation
             autoplay={{
               delay: 2500,
-              disableOnInteraction: false
+              disableOnInteraction: false,
             }}
             className="mySwiper text-center"
             modules={[Pagination]}
             pagination={{
-              clickable: true
+              clickable: true,
             }}
             slidesPerView={1}
             spaceBetween={50}
@@ -71,8 +70,16 @@ function Info() {
         </div>
       </div>
       <div className="ButtonS">
-        <Link className="LinkB" id="SYoga" to="/SYoga">
-          <Button className="botonInstagram">Sobre Yoga</Button>
+        <Link
+          className="LinkBS botonInstagram d-flex flex-row justify-content-between align-items-center"
+          id="SYoga"
+          to="/SYoga"
+        >
+          <span className="ml-5">Sobre Yoga</span>
+          <img
+            alt="pp"
+            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Group_s6xkji.png"
+          />
         </Link>
 
         <Link className="LinkB" id="SGuasha" to="/SGuasha">

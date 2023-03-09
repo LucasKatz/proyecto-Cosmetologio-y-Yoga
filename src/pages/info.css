@@ -4,18 +4,15 @@
   justify-content: center;
   margin-top: 5px;
   height: 550px;
-  max-width: 550px;
 }
 
 .containerBackground {
-  background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678274666/Ellipse_41_o0w3xp.png");
+  background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678336467/wave-pink_uaogfj.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: center 10px;
   /* Para mover img tocar el postion o el size */
-  
 }
- 
 
 .ButtonS {
   display: flex;

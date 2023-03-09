@@ -7,10 +7,10 @@ function SGuasha() {
       <section className="row justify-content-center align-items-center">
         <img
           alt="SobreG"
-          className="image d-block w-100 m-0"
+          className="image img-fluid d-block w-100 m-0"
           height={"700"}
           id="slide"
-          src="https://res.cloudinary.com/duqn8v8te/image/upload/v1678298765/20230106_145043_2_1_jbmrot.png"
+          src="https://res.cloudinary.com/duqn8v8te/image/upload/v1678333970/20230106_145043_2_1_jbmrot-min_zjm1st.png"
         />
         <h2 className="pt-3" style={{ textAlign: "center" }}>
           <strong style={{ color: "#5B3619" }}>¿Qué es Gua Sha?</strong>
@@ -19,7 +19,7 @@ function SGuasha() {
           className="col-12 col-md-6 text-center pt-4"
           style={{ width: "51rem", fontSize: "1.5rem" }}
         >
-          <p className="text-center m-0 " style={{ color: "#5B3619" }}>
+          <p className="text-center m-0 pb-5" style={{ color: "#5B3619" }}>
             Gua Sha es un antiguo método que proviene de la medicina tradicional
             china. El término “Gua” se traduce como raspado y “Sha” como “arena
             o enfermedad”, con lo cual la traducción de esta técnica sería
