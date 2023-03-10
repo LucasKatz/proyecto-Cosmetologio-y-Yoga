@@ -10,7 +10,7 @@
   background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678336467/wave-pink_uaogfj.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center 10px;
+  background-position: bottom;
   /* Para mover img tocar el postion o el size */
 }
 
@@ -20,7 +20,43 @@
   align-items: center;
 }
 
-.LinkB {
-  margin: 10px;
-  padding: 0px;
+.botonMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cdc8af;
+  width: 866px;
+  height: 108px;
+  left: 206px;
+  top: 240px;
+  border-radius: 12px;
+  border-style: hidden;
+  margin-right: 40px;
+  text-decoration: none;
+  padding: 0 40px;
+  margin-bottom: 15px;
+}
+
+.iconMenu {
+  height: 42.5px;
+  width: 40.833335876464844px;
+  border-radius: 0px;
+  color: #c87e5d;
+  margin-top: 10px;
+}
+
+.textoMenu {
+  display: inline;
+  height: 40.499996185302734px;
+  top: 263px;
+  margin-left: 55px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -0.019em;
+  color: #ffffff;
+  width: 50%;
 }

@@ -61,7 +61,7 @@ function Info() {
                 <Row>
                   <Col>
                     <h2>{item.title}</h2>
-                    <p>{item.text}</p>
+                    <p className="w-75 m-auto">{item.text}</p>
                   </Col>
                 </Row>
               </SwiperSlide>
@@ -71,23 +71,42 @@ function Info() {
       </div>
       <div className="ButtonS">
         <Link
-          className="LinkBS botonInstagram d-flex flex-row justify-content-between align-items-center"
+          className="botonMenu"
           id="SYoga"
           to="/SYoga"
         >
-          <span className="ml-5">Sobre Yoga</span>
+          <span className="textoMenu  ml-5">Sobre Yoga</span>
           <img
             alt="pp"
+            className="iconMenu"
             src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Group_s6xkji.png"
           />
         </Link>
 
-        <Link className="LinkB" id="SGuasha" to="/SGuasha">
-          <Button className="botonInstagram">Sobre Gua Sha</Button>
+        <Link
+          className="botonMenu"
+          id="SGuasha"
+          to="/SGuasha"
+        >
+          <span className="textoMenu ml-5">Sobre Gua Sha</span>
+          <img
+            alt="pp"
+            className="iconMenu"
+            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Vector_zxdfnu.png"
+          />
         </Link>
 
-        <Link className="LinkB" id="SSkincare" to="/SSkincare">
-          <Button className="botonInstagram">Sobre Skincare</Button>
+        <Link
+          className="botonMenu mb-5"
+          id="SSkincare"
+          to="/SSkincare"
+        >
+          <span className="textoMenu ml-5">Sobre Skincare</span>
+          <img
+            alt="pp"
+            className="iconMenu"
+            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Group_1_bneyqe.png"
+          />
         </Link>
       </div>
     </div>
