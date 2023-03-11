@@ -1,0 +1,18 @@
+#pictureBio{
+    height: 280px;
+  }
+
+
+@media (max-width: 360px){
+  #titleBio{  
+    font-size: 18px;
+  }
+
+  #textBio{
+    font-size: 14px;
+  }
+
+  #pictureBio{
+    height: 140px;
+  }
+}

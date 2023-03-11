@@ -184,9 +184,12 @@ color: #5B3619;
         display: grid;
         place-items: center;
         margin-left: 15px;
-        font-size: 20px;
         width: 50%;
         height: 60px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
     }
     
     
@@ -214,9 +217,12 @@ color: #5B3619;
         place-items: center;
         top: 387px;
         margin-left: 15px;
-        font-size: 20px;
         width: 50%;
         height: 60px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
     }
     
     .iconContainer1{

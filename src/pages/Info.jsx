@@ -60,8 +60,8 @@ function Info() {
               <SwiperSlide key={key} className="banner">
                 <Row>
                   <Col>
-                    <h2>{item.title}</h2>
-                    <p className="w-75 m-auto">{item.text}</p>
+                    <h2 id="titleInfo">{item.title}</h2>
+                    <p id ="textInfo"className="w-75 m-auto">{item.text}</p>
                   </Col>
                 </Row>
               </SwiperSlide>
