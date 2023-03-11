@@ -1,18 +1,27 @@
-
-.cardConteiner{
+.classConteiner{
     background-image: url("https://res.cloudinary.com/duqn8v8te/image/upload/v1678366755/fondo_1_vpbhac.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0%;
+    height: 990px;
     object-fit: contain;
     display: grid;
     place-items: center;
-    height: 700px;
+}
+
+#classConteinerYoga{
+    height: 1160px;
+}
+
+.picture{
+    width: 731px;
+    height: 381px;
 }
 
 .titulo{
     display: grid;
     place-items: center;
-    margin-top: 20px;
 }
 
 .titleClases{
@@ -23,21 +32,15 @@
     line-height: 60px;  
     color: #5B3619;
     width: 120px;
-    height: 60px;
+    height: 40px;
 }
 
 .card {
     border-style: none;
-    width: 731px;
-    height: 381px;
     display: grid;
     place-items: center;
     height: fit-content;
-}
-
-.picture{
-height: 180px;
-width: 100%;
+    margin: auto;
 }
 
 .cardBody{
@@ -62,7 +65,6 @@ width: 100%;
 }
 
 #Yoga{
-    color: #FFFFFF;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 800;
@@ -70,7 +72,6 @@ width: 100%;
 }
 
 #Talleres{
-    color: #FFFFFF;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 800;
@@ -78,7 +79,7 @@ width: 100%;
 }
 
 #skincare{
-    color: #FFFFFF;
+
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 800;

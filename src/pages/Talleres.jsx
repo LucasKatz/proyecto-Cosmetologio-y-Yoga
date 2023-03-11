@@ -4,40 +4,28 @@ import { Link } from "react-router-dom";
 
 function Clases() {
   return (
-    <div>
+    <div className="classConteiner">
     <div className="titulo">
             <h1 className="titleClases"> Talleres </h1>
         </div>
-    <div className="cardConteiner">
       <Card className="card">
+      <a href="/SGuasha">
         <Card.Img
           className="picture"
-          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398704/body-and-mins_731-4_if73xt.jpg"
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678562080/clases_3_ilqpm9.jpg"
           variant="top"
         />
-        <Card.Body className="cardBody">
-          <Card.Text className="texto">
-            <Link className="Link" id="guasha" to="/SGuasha">
-              Guasha
-            </Link>
-          </Card.Text>
-        </Card.Body>
+        </a>
       </Card>
       <Card>
+        <a href="/SSkincare">
         <Card.Img
           className="picture"
-          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398709/body-and-mins_731-2_fyqgnf.jpg"
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678560580/WhatsApp_Image_2023-03-11_at_14.58.35-min_qefndh.jpg"
           variant="top"
         />
-        <Card.Body className="cardBody">
-          <Card.Text className="texto">
-            <Link className="Link" id="skincare" to="/SSkincare">
-              Skincare
-            </Link>
-          </Card.Text>
-        </Card.Body>
+        </a>
       </Card>
-    </div>
     </div>
   );
 }

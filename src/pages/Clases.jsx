@@ -1,43 +1,31 @@
 import Card from "react-bootstrap/Card";
 import "../pages/Clases.css";
-import { Link } from "react-router-dom";
+
 
 function Clases() {
   return (
-    <div>
+    <div className="classConteiner">
       <div className="titulo">
     <h1 className="titleClases"> Clases </h1>
     </div>
-    <div className="cardConteiner">
       <Card className="card">
+        <a href="/Yoga">
         <Card.Img
           className="picture"
-          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398707/body-and-mins_731-3_zpjmyr.jpg"
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678560590/clases_2-min_xdzvlo.jpg"
           variant="top"
         />
-        <Card.Body className="cardBody">
-          <Card.Text className="texto">
-            <Link className="Link" id="Yoga" to="/Yoga">
-              Yoga
-            </Link>
-          </Card.Text>
-        </Card.Body>
+        </a>
       </Card>
       <Card className="card">
+      <a href="/Talleres">
         <Card.Img
           className="picture"
-          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678398704/body-and-mins_731-4_if73xt.jpg"
+          src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678560590/clases_1-min_tqk5e7.jpg"
           variant="top"
         />
-        <Card.Body className="cardBody">
-          <Card.Text className="texto">
-            <Link className="Link" id="Talleres" to="/Talleres">
-              Talleres
-            </Link>
-          </Card.Text>
-        </Card.Body>
+        </a>
       </Card>
-    </div>
     </div>
   );
 }
