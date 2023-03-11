@@ -1,6 +1,8 @@
+import "./Niveles.css";
+
 function Niveles() {
   return (
-    <>
+    <div className="nivelesConteiner">
       <h2 className="pt-5" style={{ textAlign: "center" }}>
         <strong style={{ color: "#5B3619", fontFamily: 'Gilroy' }}> Por niveles</strong>
       </h2>
@@ -48,7 +50,7 @@ function Niveles() {
           </p>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 export default Niveles;

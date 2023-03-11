@@ -1,3 +1,5 @@
+import "./Personalizadas.css";
+
 function Personalizadas() {
   return (
     <div className="personalizadasConteiner">
