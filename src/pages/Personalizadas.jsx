@@ -2,24 +2,24 @@ function Personalizadas() {
   return (
     <>
       <h2 className="pt-5" style={{ textAlign: "center" }}>
-        <strong style={{ color: "#5B3619" }}> Personalizadas</strong>
+        <strong style={{ color: "#5B3619", fontFamily: 'Gilroy' }}> Personalizadas</strong>
       </h2>
       <section className="row justify-content-center align-items-center">
         <h4 className="pt-5" style={{ textAlign: "center" }}>
-          <strong style={{ color: "#5B3619" }}>¿A qué me refiero?</strong>
+          <strong style={{ color: "#5B3619", fontFamily: 'Gilroy' }}>¿A qué me refiero?</strong>
         </h4>
         <div
           className="col-12 col-md-6 text-center pt-5"
           style={{ width: "51rem", fontSize: "1.5rem" }}
         >
-          <p className="text-center m-0 pb-5" style={{ color: "#5B3619" }}>
+          <p className="text-center m-0 pb-5" style={{ color: "#5B3619", fontFamily: 'Gilroy' }}>
             Es encontrarme con una respiración agitada, es descubrir un músculo
             que no se estira, es verme intentar un asana una y otra vez, sentir
             que cuesta, pero que muchas veces es una emoción que falta resolver.
             Es observar con asombro como “crece” la columna vertebral y crece la
             confianza.
           </p>
-          <p className="text-center m-0 pb-5" style={{ color: "#5B3619" }}>
+          <p className="text-center m-0 pb-5" style={{ color: "#5B3619", fontFamily: 'Gilroy'}}>
             Yoga me implica estar presente y atenta a todo lo que hago, digo y
             pienso para seguir creciendo. Porque cuando dejo de estar presente,
             los viejos patrones vuelven a hacer de las suyas, es una práctica

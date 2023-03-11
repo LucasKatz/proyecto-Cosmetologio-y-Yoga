@@ -1,3 +1,5 @@
+import "./SSkincare.css";
+
 function SSkincare() {
   return (
     <>
@@ -12,11 +14,15 @@ function SSkincare() {
           id="slide"
           src="https://res.cloudinary.com/duqn8v8te/image/upload/v1678333967/20230106_145131_2_r3wqpt-min_gxskww.png"
         />
+
+        <div id="skincareText">
         <div
           className="col-12 col-md-6 text-center pt-4 pb-4"
           style={{ width: "51rem", fontSize: "1.5rem" }}
         >
-           <h4 className="pb-3" style={{ textAlign: "center" }}>
+          
+        
+          <h4>
         <strong style={{ color: "#5B3619" }}>¿Qué es Skincare?</strong>
       </h4>
           <p className="text-center m-0" style={{ color: "#5B3619" }}>
@@ -36,7 +42,8 @@ function SSkincare() {
             <p className="text-center m-0 pb-4" style={{ color: "#5B3619" }}>
             ¡Te espero!
           </p>
-        </div>
+          </div>
+          </div>
       </section>
     </>
   );

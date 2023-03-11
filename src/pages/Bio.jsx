@@ -13,17 +13,17 @@ function Bio() {
         </div>
         <div
           className="col-12 col-md-6 text-center pt-4"
-          style={{ width: "26rem", fontSize: "1.5rem " }}
+          style={{ width: "26rem", fontSize: "1.5rem "}}
         >
           <h2>
-            <strong style={{ color: "#5B3619" }}>Hola, soy Daniela</strong>
+            <strong style={{ color: "#5B3619" , fontFamily: 'Gilroy'  }}>Hola, soy Daniela</strong>
           </h2>
           <p className="text-center m-0 ">
-            <strong style={{ color: "#5B3619" }}>
+            <strong style={{ color: "#5B3619", fontFamily: 'Gilroy'  }}>
               Cosmetóloga y profesora de yoga.
             </strong>
           </p>
-          <p>
+          <p style={{ color: "#5B3619", fontFamily: 'Gilroy' }}>
             Me considero una eterna aprendiz, familiera, amante de las
             aventuras, la naturaleza y el deporte.
           </p>
@@ -32,12 +32,12 @@ function Bio() {
       <section className="row justify-content-center align-items-center pt-5">
         <div
           className="col-12 col-md-6 text-center pt-4"
-          style={{ width: "51rem", fontSize: "1.5rem" }}
+          style={{ width: "51rem", fontSize: "1.5rem", fontFamily: 'Gilroy'  }}
         >
           <h2>
-            <strong style={{ color: "#5B3619" }}> Mi Historia</strong>
+            <strong style={{ color: "#5B3619", fontFamily: 'Gilroy'  }}> Mi Historia</strong>
           </h2>
-          <p className="text-center m-0 " style={{ color: "#5B3619" }}>
+          <p className="text-center m-0 " style={{ color: "#5B3619", fontFamily: 'Gilroy'  }}>
             Crec&iacute; sin tener v&iacute;nculo con alternativas naturales,
             pero algo en mi me llev&oacute; a recorrer ese camino.
             Estudi&eacute; profesorado de Yoga y posteriormente un posgrando en
@@ -51,15 +51,15 @@ function Bio() {
         </div>
         <div
           className="col-12 col-md-6 text-center pt-5 mt-5"
-          style={{ width: "51rem", fontSize: "1.5rem" }}
+          style={{ width: "51rem", fontSize: "1.5rem", fontFamily: 'Gilroy'  }}
         >
           <h2>
-            <strong style={{ color: "#5B3619" }}>
+            <strong style={{ color: "#5B3619", fontFamily: 'Gilroy'  }}>
               {" "}
               Mi Visi&oacute;n del Bienestar
             </strong>
           </h2>
-          <p className="text-center m-0 " style={{ color: "#5B3619" }}>
+          <p className="text-center m-0 " style={{ color: "#5B3619", fontFamily: 'Gilroy'  }}>
             Es ver al cuerpo desde diferentes &quot;&aacute;ngulos&quot;,
             &quot;perspectivas&quot;, &quot;partes&quot;, en donde trabajaremos
             nuestro cuerpo f&iacute;sico, las emociones y los pensamientos a

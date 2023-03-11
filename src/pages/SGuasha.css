@@ -1,0 +1,10 @@
+#guashaText{
+    background-image: url(../assets/wave-verde.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
