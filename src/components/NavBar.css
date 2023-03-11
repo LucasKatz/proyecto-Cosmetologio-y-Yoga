@@ -1,3 +1,19 @@
+.isNotActive {
+  text-decoration: none !important;
+  font-weight: normal;
+  color: #c87e5d;
+  display: block;
+  padding: 8px 16px;
+}
+.isNotActive:hover{ 
+    color:  #c87e5d;
+    text-decoration: none;
+}
+.active {
+  font-weight: bolder;
+}
+
+
 /**IMPORT Reset */ /* Reseteo */
 *,
 *::after,
@@ -58,7 +74,6 @@ footer .social-media .rrss_social-icon {
   height: 20%;
 }
  
-
 NavLink {
   text-decoration: none;
 }
@@ -129,7 +144,7 @@ nav .boton {
   background-size: 0% 4px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 813px) {
   .navegador {
     z-index: 3;
   }
@@ -144,7 +159,7 @@ nav .boton {
     place-items: center;
     width: 260px;
     height: 641px;
-    background-image: url(https://res.cloudinary.com/dfd5jte9n/image/upload/v1678399492/menu-lateral-261_qcpwgz.jpg);
+    background-image: url("https://res.cloudinary.com/dfd5jte9n/image/upload/v1678399492/menu-lateral-261_qcpwgz.jpg");
     background-position: center;
     background-repeat: no-repeat;
   }
