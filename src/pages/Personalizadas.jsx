@@ -1,6 +1,6 @@
 function Personalizadas() {
   return (
-    <>
+    <div className="personalizadasConteiner">
       <h2 className="pt-5" style={{ textAlign: "center" }}>
         <strong style={{ color: "#5B3619", fontFamily: 'Gilroy' }}> Personalizadas</strong>
       </h2>
@@ -29,7 +29,7 @@ function Personalizadas() {
           </p>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 export default Personalizadas;
