@@ -32,21 +32,16 @@
     line-height: 60px;  
     color: #5B3619;
     width: 120px;
-    height: 40px;
+    height: fit-content;
 }
 
 .card {
     border-style: none;
     display: grid;
     place-items: center;
-    height: fit-content;
     margin: auto;
 }
 
-.cardBody{
-    background: rgba(189, 133, 124, 0.8);
-    width: 100%;
-}
 
 .texto{
     text-align: center;
@@ -142,22 +137,26 @@ margin-bottom: 25px;
 
 
 @media (max-width: 360px){
-.cardConteiner {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 770px;
+.classConteiner {
+    height: 700px;
+}
+
+#classConteinerYoga{
+    height: 700px;
 }
 
 .titleClases{
     width: 96px;
-    height: 48px;
 }
 
-.card {
-    margin-top: -130px;
-    width: 328px;
-    height: 171px;
+.card{
+    margin: auto;
+    width: 90%;
+}
+
+.picture{
+    width: 100%;
+    height: 100%;
 }
 
 .reserva{
@@ -165,31 +164,6 @@ margin-bottom: 25px;
     position: absolute;
     line-height: 20%;
 }
-
-#Yoga{
-    font-size: 35px;
-}
-
-#Talleres{
-    font-size: 35px;
-}
-
-#skincare{
-    font-size: 35px; 
-}
-
-#guasha{
-    font-size: 35px;
-}
-
-#niveles{
-    font-size: 35px;
-}
-
-#personalizadas{
-    font-size: 35px;
-}
-
 
 
 }

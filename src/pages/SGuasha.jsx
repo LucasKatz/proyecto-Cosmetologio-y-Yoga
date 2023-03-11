@@ -21,9 +21,9 @@ function SGuasha() {
         </h2>
         <div
           className="col-12 col-md-6 text-center pt-4"
-          style={{ width: "51rem", fontSize: "1.5rem" }}
+          id="guashaConteiner"
         >
-          <p className="text-center m-0 pb-5"  style={{ color: "#5B3619" }}>
+          <p id="textConteiner" className="text-center m-0 pb-5"  style={{ color: "#5B3619" }}>
             Gua Sha es un antiguo método que proviene de la medicina tradicional
             china. El término “Gua” se traduce como raspado y “Sha” como “arena
             o enfermedad”, con lo cual la traducción de esta técnica sería

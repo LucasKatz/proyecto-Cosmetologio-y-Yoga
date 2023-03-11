@@ -8,3 +8,34 @@
     place-items: center;
     width: 100%;
 }
+
+#guashaConteiner {
+    width: "51rem";
+    font-size: "1.5rem";
+}
+
+@media (max-width: 360px){
+
+    .SGuashaConteiner{
+        display: grid;
+        place-items: center;
+        width: 360px;
+    }
+
+    #guashaConteiner {
+        display: grid;
+        place-items: center;
+        width: 360px;
+    }
+
+    #guashaText{
+        display: grid;
+        place-items: center;
+    }
+
+    #textConteiner{
+        font-size: 14px;
+        margin: auto;
+        padding: 20px;
+    }
+}

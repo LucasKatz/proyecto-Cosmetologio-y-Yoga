@@ -1,4 +1,4 @@
-#skincareText{
+#skincareConteiner{
     background-image: url(../assets/wave-verde.svg);
     background-position: center;
     background-size: cover;
@@ -6,4 +6,20 @@
     height: 580px;
     display: grid;
     place-items: center;
+    width: 100%;
+}
+
+#skincareText{
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 360px){
+    #skincareText{
+        font-size: 14px;
+        padding: 20px;
+    }
+    
 }

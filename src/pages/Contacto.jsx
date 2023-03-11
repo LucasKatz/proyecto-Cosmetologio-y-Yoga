@@ -42,7 +42,7 @@ function Contacto() {
         <div className="Feed">
           <div className="innerText">
             <a
-              className="href"
+              className="hrefPictures"
               href="https://www.instagram.com/holistic.bodyandmind/"
               rel="noopener noreferrer"
               target="_blank"
@@ -56,7 +56,7 @@ function Contacto() {
           </div>
           <div className="innerText">
             <a
-              className="href"
+              className="hrefPictures"
               href="https://www.instagram.com/holistic.bodyandmind/"
               rel="noopener noreferrer"
               target="_blank"
@@ -70,7 +70,7 @@ function Contacto() {
           </div>
           <div className="innerText">
             <a
-              className="href"
+              className="hrefPictures"
               href="https://www.instagram.com/holistic.bodyandmind/"
               rel="noopener noreferrer"
               target="_blank"
@@ -84,7 +84,7 @@ function Contacto() {
           </div>
           <div className="innerText">
             <a
-              className="href"
+              className="hrefPictures"
               href="https://www.instagram.com/holistic.bodyandmind/"
               rel="noopener noreferrer"
               target="_blank"

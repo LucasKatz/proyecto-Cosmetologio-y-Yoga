@@ -4,3 +4,15 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#textConteiner {
+    font-size: 30px 
+}
+
+@media (max-width: 360px){
+    #textConteiner{
+        font-size: 14px;
+        margin: auto;
+        padding: 20px;
+    }
+}

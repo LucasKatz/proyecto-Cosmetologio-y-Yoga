@@ -15,10 +15,10 @@ function SSkincare() {
           src="https://res.cloudinary.com/duqn8v8te/image/upload/v1678333967/20230106_145131_2_r3wqpt-min_gxskww.png"
         />
 
-        <div id="skincareText">
+        <div id="skincareConteiner">
         <div
+        id="skincareText"
           className="col-12 col-md-6 text-center pt-4 pb-4"
-          style={{ width: "51rem", fontSize: "1.5rem" }}
         >
           
         
