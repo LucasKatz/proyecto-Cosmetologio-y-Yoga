@@ -136,10 +136,14 @@ nav .boton {
 
 @media (max-width: 360px) {
   .navegador {
-    z-index: 3;
+    height: 90px;
+    z-index: 2;
   }
-  .logo {
+  #logo {
     overflow: hidden;
+    height: 50px;
+    width: 50px;
+    position: unset;
   }
   .btnConteiner {
     display: flex;
@@ -152,6 +156,7 @@ nav .boton {
     background-image: url(https://res.cloudinary.com/dfd5jte9n/image/upload/v1678560580/WhatsApp_Image_2023-03-11_at_15.16.40-min_ykxojf.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
   }
   .Link {
     font-size: 20px;

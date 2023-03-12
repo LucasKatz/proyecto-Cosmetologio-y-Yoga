@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-import "./NavBar.css";
+import './NavBar.css'
 
 /* Este Navbar tiene el efecto active bolder al seleccionar una pagina, falta agregar la imagen del fondo del burger navbar */
 
@@ -19,6 +19,7 @@ function NavBar() {
         <Container className="d-flex justify-content-around p-1">
           <Navbar.Brand href="/">
             <img
+              id="logo"
               alt="React Bootstrap logo"
               className="d-inline-block align-top"
               height="56"
