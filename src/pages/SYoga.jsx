@@ -13,7 +13,10 @@ function SYoga() {
         className="parrafoSY w-100 pt-5"
         style={{ width: "51rem", fontSize: "1.8rem" }}
       >
-        <p className="parrafo m-4 pt-5 text-center w-50" style={{ color: "white" }}>
+        <p
+          className="parrafo m-4 pt-5 text-center w-50"
+          style={{ color: "white" }}
+        >
           <strong>
             {" "}
             “A través del yoga, la alimentación saludable y el cuidado del
@@ -21,15 +24,17 @@ function SYoga() {
           </strong>
         </p>
 
-        <div className="d-grid" id="yogaConteiner">
-          <Button className="claseButton mt-5" id="btnReserva" size="lg">
+        <div className="contenedorBody">
+          <Button className="boton" style={{ backgroundColor: "#C87E5D" }}>
             <a
               className="href"
               href="https://api.whatsapp.com/send?phone=5493434667572"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <p className="reserva"> Reserva tu clase de prueba</p>
+              <span className="textoBoton mx-auto">
+                Reserva tu clase de prueba!
+              </span>
             </a>
           </Button>
         </div>

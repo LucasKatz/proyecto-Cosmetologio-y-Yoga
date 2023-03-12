@@ -1,13 +1,18 @@
+import { Link } from "react-router-dom";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 // eslint-disable-next-line import/no-unresolved
 import "swiper/css";
+import "../pages/Contacto.css";
+import "./info.css";
 // eslint-disable-next-line import/no-unresolved
 import "swiper/css/pagination";
-import "./info.css";
 import Carousel from "react-bootstrap/Carousel";
-import { Col, Row, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Col, Row} from "react-bootstrap";
+
+import YogaIcon from "../assets/yoga-icon.svg";
+import GuaShaIcon from "../assets/gua-sha-icon.svg";
+import SkincareIcon from "../assets/skincare-icon.svg";
 
 function Info() {
   const data = [
@@ -69,44 +74,26 @@ function Info() {
           </Swiper>
         </div>
       </div>
-      <div className="ButtonS">
-        <Link
-          className="botonMenu"
-          id="SYoga"
-          to="/SYoga"
-        >
-          <span className="textoMenu  ml-5">Sobre Yoga</span>
-          <img
-            alt="pp"
-            className="iconMenu"
-            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Group_s6xkji.png"
-          />
+      <div className="contenedorBody">
+        <Link className="boton" id="SYoga" to="/SYoga">
+          <span className="textoBoton">Sobre Yoga</span>
+          <div className="iconContainer">
+            <img alt="Yoga icon"  className="icon"  src={YogaIcon} />
+          </div>
         </Link>
 
-        <Link
-          className="botonMenu"
-          id="SGuasha"
-          to="/SGuasha"
-        >
-          <span className="textoMenu ml-5">Sobre Gua Sha</span>
-          <img
-            alt="pp"
-            className="iconMenu"
-            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Vector_zxdfnu.png"
-          />
+        <Link className="boton" id="SGuasha" to="/SGuasha">
+          <span className="textoBoton">Sobre Gua Sha</span>
+          <div className="iconContainer">
+            <img alt="Gua Sha icon"  className="icon"  src={GuaShaIcon} />
+          </div>
         </Link>
 
-        <Link
-          className="botonMenu mb-5"
-          id="SSkincare"
-          to="/SSkincare"
-        >
-          <span className="textoMenu ml-5">Sobre Skincare</span>
-          <img
-            alt="pp"
-            className="iconMenu"
-            src="https://res.cloudinary.com/dew1za4wz/image/upload/v1677630013/plants/Group_1_bneyqe.png"
-          />
+        <Link className="boton mb-4" id="SSkincare" to="/SSkincare">
+          <span className="textoBoton">Sobre Skincare</span>
+          <div className="iconContainer">
+            <img alt="Skincare icon"  className="icon"  src={SkincareIcon} />
+          </div>
         </Link>
       </div>
     </div>

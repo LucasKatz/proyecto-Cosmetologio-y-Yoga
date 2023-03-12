@@ -9,30 +9,30 @@ function Contacto() {
       <h1 className="tituloContacto">Contacto</h1>
 
       <div className="contenedorBody">
-        <Button className="botonInstagram">
+        <Button className="boton">
           <a
             className="href"
             href="https://www.instagram.com/holistic.bodyandmind/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <p className="textoBotonInstagram">@holistic.bodyandmind</p>
-            <div className="iconContainer1">
-              <FontAwesomeIcon className="iconInstagram" icon={faInstagram} />
+            <span className="textoBoton">@holistic.bodyandmind</span>
+            <div className="iconContainer">
+              <FontAwesomeIcon className="icon" icon={faInstagram} />
             </div>
           </a>
         </Button>
 
-        <Button className="botonWhatsapp">
+        <Button className="boton">
           <a
             className="href"
             href="https://api.whatsapp.com/send?phone=5493434667572"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <p className="textoBotonWhatsapp">¡Hablemos!</p>
-            <div className="iconContainer2">
-              <FontAwesomeIcon className="iconWhatsapp" icon={faWhatsapp} />
+            <span className="textoBoton">¡Hablemos!</span>
+            <div className="iconContainer">
+              <FontAwesomeIcon className="icon" icon={faWhatsapp} />
             </div>
           </a>
         </Button>
@@ -48,8 +48,8 @@ function Contacto() {
               target="_blank"
             >
               <img
-                id="contactosImg"
                 alt=""
+                id="contactosImg"
                 src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834659/body-and-mind_2-S_ypjn3a.jpg"
               />
             </a>
@@ -62,8 +62,8 @@ function Contacto() {
               target="_blank"
             >
               <img
-                id="contactosImg"
                 alt=""
+                id="contactosImg"
                 src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1676834659/body-and-mind_1-S_i5a2x2.jpg"
               />
             </a>

@@ -30,53 +30,6 @@
   color: #5B3619;
 }
 
-.ButtonS {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.botonMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #cdc8af;
-  width: 866px;
-  height: 108px;
-  left: 206px;
-  top: 240px;
-  border-radius: 12px;
-  border-style: hidden;
-  margin-right: 40px;
-  text-decoration: none;
-  padding: 0 40px;
-  margin-bottom: 15px;
-}
-
-.iconMenu {
-  height: 42.5px;
-  width: 40.833335876464844px;
-  border-radius: 0px;
-  color: #c87e5d;
-  margin-top: 10px;
-}
-
-.textoMenu {
-  display: inline;
-  height: 40.499996185302734px;
-  top: 263px;
-  margin-left: 55px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 150%;
-  letter-spacing: -0.019em;
-  color: #ffffff;
-  width: 50%;
-}
-
 @media (max-width: 360px){
 
   .containerBackground {
