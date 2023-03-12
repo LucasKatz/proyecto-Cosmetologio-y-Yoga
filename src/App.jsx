@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { Footer, NavBar } from "./components";
+import { Footer } from "./components";
 import "../src/styles/style.css";
 import {
   Bio,
@@ -17,11 +17,13 @@ import {
   Personalizadas,
   Niveles
 } from "./pages";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+      
+     <NavBar/>
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Clases />} path="/Clases" />
