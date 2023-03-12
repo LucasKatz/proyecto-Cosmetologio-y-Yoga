@@ -38,7 +38,7 @@ function Clases() {
             target="_blank"
           >
             <span className="textoBoton mx-auto">
-              Reserva tu clase de prueba!
+              ¡Reserva tu clase de prueba!
             </span>
           </a>
         </Button>

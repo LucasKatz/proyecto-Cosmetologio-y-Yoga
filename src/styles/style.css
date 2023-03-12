@@ -57,7 +57,12 @@ footer .social-media .rrss_social-icon {
   width: 40px;
   height: 20%;
 }
- 
+@media screen and (min-width: 250px) and (max-width: 1023px) {
+  footer .social-media .rrss_social-icon {
+    width: 30px;
+    height: 15%;
+  }
+}
 
 NavLink {
   text-decoration: none;

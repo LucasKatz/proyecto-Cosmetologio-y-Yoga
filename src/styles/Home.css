@@ -1,6 +1,5 @@
 .homeConteiner {
   height: 1170px;
-  display: -ms-grid;
   display: grid;
   place-items: center;
 }
@@ -8,14 +7,12 @@
 .infoHome {
   background-image: url("../assets/fondo-waves.svg");
   width: 100%;
-  display: -ms-grid;
   display: grid;
   place-items: center;
   overflow: hidden;
 }
 
 .vision {
-  display: -ms-grid;
   display: grid;
   place-items: center;
   width: 50%;
@@ -25,7 +22,6 @@
 }
 
 .testimonios {
-  display: -ms-grid;
   display: grid;
   place-items: center;
   width: 50%;
@@ -41,12 +37,8 @@
 .FeedHome {
   margin-top: 50px;
   margin-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .innerTextHome {
@@ -60,25 +52,21 @@
 /* Responsive */
 @media (max-width: 360px) {
   .infoHome {
-    display: -ms-grid;
     display: grid;
     place-items: center;
     text-align: center;
     background-position: center;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     height: 1000px;
   }
   .vision {
-    display: -ms-grid;
     display: grid;
     place-items: center;
     color: #5b3619;
     text-align: center;
   }
   .testimonios {
-    display: -ms-grid;
     display: grid;
     place-items: center;
     color: #5b3619;
@@ -87,12 +75,8 @@
   .FeedHome {
     margin-top: 50px;
     margin-bottom: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   .picturesHome {
     width: 100%;
@@ -106,5 +90,4 @@
     background-color: #5b3619;
     margin-bottom: 35px;
   }
-}
-/*# sourceMappingURL=Home.css.map */
+}/*# sourceMappingURL=Home.css.map */

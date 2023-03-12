@@ -34,10 +34,11 @@
 
   .containerBackground {
     background-position: center;
+    height: 850px;
   }
 
   .banner {
-    height: 350px;
+    height: 835px;
   }
 
   .botonMenu {
