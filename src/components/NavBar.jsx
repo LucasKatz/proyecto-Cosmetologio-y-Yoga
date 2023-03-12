@@ -17,7 +17,7 @@ function NavBar() {
         variant="ligth"
       >
         <Container className="d-flex justify-content-around p-1">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt="React Bootstrap logo"
               className="d-inline-block align-top"
