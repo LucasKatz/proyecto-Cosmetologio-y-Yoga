@@ -120,9 +120,10 @@
     transform: scale(1.08);
   }
 
+
   .Feed {
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
   }
 
   #contactosImg {
