@@ -15,7 +15,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon alt="Instagram icon" icon={faInstagram} />
+            <FontAwesomeIcon alt="Instagram icon" id="faInstagram" icon={faInstagram} />
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=5493434667572"
@@ -25,6 +25,7 @@ const Footer = () => {
             <FontAwesomeIcon
               alt="Facebook icon"
               className="ms-4"
+              id="faWhatsapp"
               icon={faWhatsapp}
             />
           </a>

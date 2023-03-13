@@ -72,12 +72,11 @@ NavLink {
   background-color: #FFFFFF;
   justify-content: end;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 117px;
+  height: 80px;
   z-index: 1;
 }
 
 .logo {
-  height: 6em;
   padding: 1.5em;
   will-change: filter;
   position: absolute;
@@ -104,7 +103,6 @@ nav {
 }
 
 nav .logo {
-  margin-top: -50px;
   margin-right: 60px;
 }
 

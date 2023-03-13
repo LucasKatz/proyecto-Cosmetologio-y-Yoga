@@ -1,4 +1,41 @@
 footer {
+  height: 70px;
+
+  background-color: #FFFFFF;
+  color: #C87E5D;
+
+  box-shadow: 0px -8px 7px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px -8px 7px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px -8px 7px rgba(0, 0, 0, 0.25);
+}
+
+footer img {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  padding: 0;
+}
+
+#faWhatsapp{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#faInstagram{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+footer .media a {
+  font-size: 1.5rem;
+
+  color: inherit;
+}
+
+
+@media (max-width: 360px){
+
+footer {
     height: 60px;
   
     background-color: #FFFFFF;
@@ -15,9 +52,20 @@ footer {
   
     padding: 0;
   }
+
+  #faWhatsapp{
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  #faInstagram{
+    width: 2rem;
+    height: 2rem;
+  }
   
   footer .media a {
     font-size: 1.5rem;
   
     color: inherit;
   }
+}
