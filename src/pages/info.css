@@ -35,6 +35,34 @@
   font-weight: normal;
   font-size: 30px;
   color: #ffffff;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+
+#SSkincare{
+height: 75px;
+}
+
+#SYoga{
+  height: 75px;
+  
+}
+
+#iconGuasha{
+  height: 50px;
+  font-size: 40px;
+}
+
+#iconYoga{
+  height: 55px;
+  width: 63px;
+  font-size: 45px;
+}
+
+#iconSkincare{
+  height: 55px;
+  width: 63px;
+  font-size: 45px;
 }
 
 @media (max-width: 360px){
