@@ -132,7 +132,7 @@ function Bio() {
       </section>
       <div>
         <div className="contenedorBody">
-          <Button className="boton" style={{ backgroundColor: "#C87E5D" }}>
+          <Button className="botonBio" style={{ backgroundColor: "#C87E5D" }}>
             <a
               className="href"
               href="https://api.whatsapp.com/send?phone=5493434667572"

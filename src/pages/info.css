@@ -30,6 +30,13 @@
   color: #5B3619;
 }
 
+.textoBotonInfo{
+  font-family: "Gilroy";
+  font-weight: normal;
+  font-size: 30px;
+  color: #ffffff;
+}
+
 @media (max-width: 360px){
 
   .containerBackground {
@@ -53,6 +60,13 @@
     font-size: 20px;
     margin: auto;
     width: fit-content;
+  }
+
+
+
+  .textoBotonInfo{
+    color: white;
+    font-size: 20px;
   }
 
 }

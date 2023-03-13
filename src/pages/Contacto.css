@@ -105,12 +105,28 @@
 
   .textoBoton {
     font-size: 20px;
+    display: grid;
+    place-content: center;
   }
 
   .icon {
     height: 30px;
     width: 30px;
     color: #c87e5d;
+  }
+
+  #iconInstagram{
+    height: 30px;
+    width: 30px;
+  }
+
+  #iconWhatsapp{
+    height: 30px;
+    width: 30px;
+  }
+
+  #iconContainerWpp{
+    margin-left: 50px;
   }
 
   .boton:hover {

@@ -76,22 +76,22 @@ function Info() {
       </div>
       <div className="contenedorBody">
         <Link className="boton" id="SYoga" to="/SYoga">
-          <span className="textoBoton">Sobre Yoga</span>
-          <div className="iconContainer">
+          <span className="textoBotonInfo">Sobre Yoga</span>
+          <div className="iconContainerInfo">
             <img alt="Yoga icon"  className="icon"  src={YogaIcon} />
           </div>
         </Link>
 
         <Link className="boton" id="SGuasha" to="/SGuasha">
-          <span className="textoBoton">Sobre Gua Sha</span>
-          <div className="iconContainer">
+          <span className="textoBotonInfo">Sobre Gua Sha</span>
+          <div className="iconContainerInfo">
             <img alt="Gua Sha icon"  className="icon"  src={GuaShaIcon} />
           </div>
         </Link>
 
         <Link className="boton mb-4" id="SSkincare" to="/SSkincare">
-          <span className="textoBoton">Sobre Skincare</span>
-          <div className="iconContainer">
+          <span className="textoBotonInfo">Sobre Skincare</span>
+          <div className="iconContainerInfo">
             <img alt="Skincare icon"  className="icon"  src={SkincareIcon} />
           </div>
         </Link>

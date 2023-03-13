@@ -18,7 +18,7 @@ function Contacto() {
           >
             <span className="textoBoton">@holistic.bodyandmind</span>
             <div className="iconContainer">
-              <FontAwesomeIcon className="icon" icon={faInstagram} />
+              <FontAwesomeIcon  id="iconInstagram" className="icon" icon={faInstagram} />
             </div>
           </a>
         </Button>
@@ -31,8 +31,8 @@ function Contacto() {
             target="_blank"
           >
             <span className="textoBoton">¡Hablemos!</span>
-            <div className="iconContainer">
-              <FontAwesomeIcon className="icon" icon={faWhatsapp} />
+            <div className="iconContainer" id="iconContainerWpp">
+              <FontAwesomeIcon id="iconWhatsapp" className="icon" icon={faWhatsapp} />
             </div>
           </a>
         </Button>
