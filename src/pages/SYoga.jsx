@@ -28,7 +28,7 @@ function SYoga() {
           <Button className="boton" style={{ backgroundColor: "#C87E5D" }}>
             <a
               className="href"
-              href="https://api.whatsapp.com/send?phone=5493434667572"
+              href="https://api.whatsapp.com/send?phone=393398228987"
               rel="noopener noreferrer"
               target="_blank"
             >

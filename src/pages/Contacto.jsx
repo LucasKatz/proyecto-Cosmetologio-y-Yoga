@@ -26,7 +26,7 @@ function Contacto() {
         <Button className="boton">
           <a
             className="href"
-            href="https://api.whatsapp.com/send?phone=5493434667572"
+            href="https://api.whatsapp.com/send?phone=393398228987"
             rel="noopener noreferrer"
             target="_blank"
           >

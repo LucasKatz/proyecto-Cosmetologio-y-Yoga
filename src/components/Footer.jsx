@@ -18,7 +18,7 @@ const Footer = () => {
             <FontAwesomeIcon alt="Instagram icon" id="faInstagram" icon={faInstagram} />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5493434667572"
+            href="https://api.whatsapp.com/send?phone=393398228987"
             rel="noopener noreferrer"
             target="_blank"
           >
