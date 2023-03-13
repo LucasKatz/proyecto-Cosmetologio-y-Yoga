@@ -16,7 +16,7 @@ function NavBar() {
         expand="lg"
         variant="ligth"
       >
-        <Container className="d-flex justify-content-around p-1">
+        <Container className="d-flex p-1">
           <Navbar.Brand href="/">
             <img
               id="logo"

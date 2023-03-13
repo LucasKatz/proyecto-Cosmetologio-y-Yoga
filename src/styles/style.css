@@ -136,14 +136,14 @@ nav .boton {
 
 @media (max-width: 360px) {
   .navegador {
-    height: 90px;
+    height: 75px;
     z-index: 2;
+    padding: 10px;
   }
   #logo {
     overflow: hidden;
     height: 45px;
     width: 45px;
-    position: unset;
   }
   .btnConteiner {
     display: flex;
