@@ -21,7 +21,7 @@ function Niveles() {
             avanza, otras se retrocede.
           </p>
           <p id="textConteiner" className="text-justify m-0 pb-5" style={{ color: "#5B3619", fontFamily: 'Gilroy' }}>
-            <strong>
+            <strong id="version">
               ¡Pero siempre estaremos buscando nuestra mejor versión!
             </strong>
           </p>

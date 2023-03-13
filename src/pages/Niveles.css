@@ -15,4 +15,8 @@
         margin: auto;
         padding: 20px;
     }
+
+    #version{
+        font-size: 18px;
+    }
 }

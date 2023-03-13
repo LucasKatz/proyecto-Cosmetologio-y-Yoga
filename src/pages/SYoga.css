@@ -11,6 +11,10 @@
   width: 100%;
 }
 
+.textoVideoYoga{
+  color: #5B3619;
+}
+
 .hero {
   background-color: rgba(0, 0, 0, 0.1);
   position: relative;
@@ -28,4 +32,25 @@
   min-width: 100%;
   min-height: 100%;
   object-fit: fill;
+}
+
+
+@media (max-width: 360px){
+  .hero__video {
+    width: auto;
+    height: auto
+  }
+
+  .parrafoSY{
+    height: fit-content;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .textoVideoYoga{
+    color: #5B3619;
+  }
+  
+
 }

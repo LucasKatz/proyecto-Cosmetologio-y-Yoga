@@ -68,16 +68,21 @@ height: 75px;
 
   .containerBackground {
     background-position: center;
-    height: 850px;
+    height: 650px;
   }
 
   .banner {
-    height: 835px;
+    height: 635px;
   }
 
   .botonMenu {
     width: 80%;
   }
+
+  
+#textInfo{
+  font-size: 1.5rem;
+}
 
   .iconMenu {
     size: 50%;

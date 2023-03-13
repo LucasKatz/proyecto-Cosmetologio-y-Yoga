@@ -17,7 +17,7 @@ function SYoga() {
           className="parrafo m-4 pt-5 text-center w-50"
           style={{ color: "white" }}
         >
-          <strong>
+          <strong className="textoVideoYoga">
             {" "}
             “A través del yoga, la alimentación saludable y el cuidado del
             cuerpo, descubrí una conexión más profunda.”
