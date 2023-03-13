@@ -44,25 +44,24 @@ height: 75px;
 }
 
 #SYoga{
-  height: 75px;
-  
+  height: 75px; 
 }
 
 #iconGuasha{
   height: 50px;
-  font-size: 40px;
+
 }
 
 #iconYoga{
   height: 55px;
   width: 63px;
-  font-size: 45px;
+
 }
 
 #iconSkincare{
   height: 55px;
   width: 63px;
-  font-size: 45px;
+
 }
 
 @media (max-width: 360px){
@@ -90,12 +89,33 @@ height: 75px;
     width: fit-content;
   }
 
+#iconGuasha{
+  height: 37px;
+  width: 45px;
+}
 
+#iconYoga{
+  height: 50px;
+  width: 50px;
+}
+
+#iconSkincare{
+  height: 50px;
+  width: 50px;
+}
 
   .textoBotonInfo{
     color: white;
     font-size: 20px;
   }
+
+  #SSkincare{
+    height: 63px;
+    }
+    
+    #SYoga{
+      height: 63px; 
+    }
 
 }
 
