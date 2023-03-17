@@ -11,45 +11,19 @@
   width: 100%;
 }
 
-.textoVideoYoga{
-  color: #5B3619;
+.textoVideoYoga {
+  color: #5b3619;
 }
 
-.hero {
-  background-color: rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-  /* Si lo queres sacar dejalo en 90 */
-  min-height: 110vh;  
-}
-
-.hero__video { 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: fill;
-}
-
-
-@media (max-width: 360px){
-  .hero__video {
-    width: auto;
-    height: auto
-  }
-
-  .parrafoSY{
+@media (max-width: 360px) {
+  .parrafoSY {
     height: fit-content;
     margin-bottom: 20px;
     background-size: cover;
     background-position: center;
   }
 
-  .textoVideoYoga{
-    color: #5B3619;
+  .textoVideoYoga {
+    color: #5b3619;
   }
-  
-
 }
