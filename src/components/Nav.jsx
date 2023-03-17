@@ -11,21 +11,20 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect className="navegador" expand="lg">
       <Container>
-
-      <Navbar.Brand>
-      <NavLink to={"/"}>
-        <a href="/">
-            <img
-              id="logo"
-              alt="React Bootstrap logo"
-              className="d-inline-block align-top"
-              height="56"
-              src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
-              width="56"
-            />
+        <Navbar.Brand>
+          <NavLink to={"/"}>
+            <a href="/">
+              <img
+                alt="React Bootstrap logo"
+                className="d-inline-block align-top"
+                height="56"
+                id="logo"
+                src="https://res.cloudinary.com/dew1za4wz/image/upload/v1674251802/plants/logo_ktpfxw.png"
+                width="56"
+              />
             </a>
           </NavLink>
-          </Navbar.Brand>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="btnConteiner" id="responsive-navbar-nav">
           <Nav className="linkConteiner">

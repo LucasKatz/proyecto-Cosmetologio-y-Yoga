@@ -19,13 +19,12 @@
   background-color: rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
-  padding: 8.9rem 0 0 8.9rem;
+  /* Si lo queres sacar dejalo en 90 */
+  min-height: 110vh;  
 }
 
-.hero__video {
+.hero__video { 
   position: absolute;
-  z-index: -1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
