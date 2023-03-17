@@ -11,14 +11,8 @@ function SYoga() {
       </section>
       {/* Esta section rompe revisar */}
       {/* <section className="row justify-content-center align-items-center"> */}
-      <div
-        className="parrafoSY w-100 pt-5"
-        style={{ width: "51rem", fontSize: "1.8rem" }}
-      >
-        <p
-          className="parrafo m-4 pt-5 text-center w-50"
-          style={{ color: "white" }}
-        >
+      <div className="parrafoSY w-100" style={{ width: "51rem" }}>
+        <p className="parrafo m-4 text-center w-50" style={{ color: "white" }}>
           <strong className="textoVideoYoga">
             {" "}
             “A través del yoga, la alimentación saludable y el cuidado del

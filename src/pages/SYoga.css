@@ -9,13 +9,11 @@
   background-size: 100% auto;
   height: 500px;
   width: 100%;
+  padding-top: 15px;
+  font-size: 1.8rem;
 }
 
-.textoVideoYoga {
-  color: #5b3619;
-}
-
-@media (max-width: 360px) {
+@media (min-width: 360px) {
   .parrafoSY {
     height: fit-content;
     margin-bottom: 20px;
@@ -25,5 +23,6 @@
 
   .textoVideoYoga {
     color: #5b3619;
+    font-size: 18px;
   }
 }
