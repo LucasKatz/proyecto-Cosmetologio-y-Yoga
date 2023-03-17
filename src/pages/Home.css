@@ -56,6 +56,10 @@
         height: auto;
     }
 
+    .carousel-indicators{
+        z-index: 1;
+    }
+
     .infoHome{
         display: grid;
         place-items: center;

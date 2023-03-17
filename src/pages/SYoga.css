@@ -34,3 +34,34 @@
     font-size: 18px;
   }
 }
+
+/*@media (max-width: 400px ) {
+
+  .SYogaPage{
+    width: fit-content;
+  }
+
+  .parrafoSY {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .textoVideoYoga {
+    color: #5b3619;
+    font-size: 18px;
+  }
+
+  .boton{
+    width: 100%;
+    margin: auto;
+  }
+
+  .textoBoton{
+    font-size: 18px;
+  }
+
+
+}*/

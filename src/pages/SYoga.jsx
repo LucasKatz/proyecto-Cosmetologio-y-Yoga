@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import "../pages/SYoga.css";
 function SYoga() {
   return (
-    <>
+    <div className="SYogaPage">
       <section className="hero">
         <video loop className="w-100" controls="false">
           <source src="https://res.cloudinary.com/duqn8v8te/video/upload/v1678291950/Dise%C3%B1o_sin_t%C3%ADtulo_dawm24.mp4" />
@@ -29,14 +29,14 @@ function SYoga() {
               target="_blank"
             >
               <span className="textoBoton mx-auto">
-                Reserva tu clase de prueba!
+                ¡Reserva tu clase de prueba!
               </span>
             </a>
           </Button>
         </div>
       </div>
       {/* </section> */}
-    </>
+    </div>
   );
 }
 export default SYoga;
