@@ -50,7 +50,7 @@
 
 /* Responsive */
 
-@media (max-width: 360px){
+@media (max-width: 400px){
 
     .homeConteiner{
         height: auto;
@@ -84,23 +84,20 @@
     }
 
     .FeedHome{
-        margin-top: 50px;
-        margin-bottom: 25px;
-        display: flex;
-        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
     }
 
     .picturesHome{
-        width:100%;
-        margin-bottom: 30px;
-        margin: auto;
+        width: fit-content;
+        height: 50%;
     }
 
     #homeImg{
         display: inline;
         width: 90%;
-        height: 90%;
         margin-bottom: 35px; 
+        padding: auto;
     }
 
 }

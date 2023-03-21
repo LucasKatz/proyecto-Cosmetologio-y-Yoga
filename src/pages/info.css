@@ -64,7 +64,7 @@ height: 75px;
 
 }
 
-@media (max-width: 360px){
+@media (max-width: 400px){
 
   .containerBackground {
     background-position: center;
@@ -116,10 +116,17 @@ height: 75px;
 
   #SSkincare{
     height: 63px;
+    width: 90%;
     }
     
     #SYoga{
       height: 63px; 
+      width: 90%;
+    }
+
+    #SGuasha{
+      width: 90%;
+      height: 63px;
     }
 
 }

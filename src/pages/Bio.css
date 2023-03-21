@@ -7,7 +7,7 @@
   border-style: none;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #titleBio {
     font-size: 1.5rem;
   }
@@ -17,7 +17,7 @@
   }
 
   .botonBio{
-    width: 270px;
+    width: 90%;
     border-style: none;
   }
 
