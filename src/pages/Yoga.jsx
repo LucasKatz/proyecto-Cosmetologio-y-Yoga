@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import "../pages/Clases.css";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 function Clases() {
   return (
@@ -10,23 +11,23 @@ function Clases() {
       </div>
 
       <Card className="card">
-        <a href="/Personalizadas">
+        <Link to ="/Personalizadas">
           <Card.Img
             className="picture"
             src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678562080/clases_4_lubskt.jpg"
             variant="top"
           />
-        </a>
+        </Link>
       </Card>
 
       <Card>
-        <a href="/Niveles">
+        <Link  to="/Niveles">
           <Card.Img
             className="picture"
             src="https://res.cloudinary.com/dfd5jte9n/image/upload/v1678560580/WhatsApp_Image_2023-03-11_at_14.58.52-min_xzgj4b.jpg"
             variant="top"
           />
-        </a>
+        </Link>
       </Card>
 
       <div className="contenedorBody">
