@@ -8,7 +8,7 @@ function Niveles() {
       </h2>
       <section className="row justify-content-center align-items-center">
         <h4 className="pt-5" style={{ textAlign: "center" }}>
-          <strong style={{ color: "#5B3619", fontFamily: 'Gilroy' }}>¿A qué me refiero?</strong>
+          <strong id="referencia" style={{ color: "#5B3619", fontFamily: 'Gilroy' }}>¿A qué me refiero?</strong>
         </h4>
         <div
           className="col-12 col-md-6 text-center pt-5"
