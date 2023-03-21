@@ -16,14 +16,14 @@
 
 
 
-@media (max-width: 360px){
+@media (max-width: 400px){
     #skincareText{
-        font-size: 14px;
+        font-size: 1.5rem;
         padding: 20px;
     }
 
     #skincareConteiner{
-        height: 580px;
+        height: fit-content;
     }
     
 }

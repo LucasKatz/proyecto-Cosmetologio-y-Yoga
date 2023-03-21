@@ -21,7 +21,7 @@
   margin-top: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .parrafoSY {
     height: fit-content;
     margin-bottom: 20px;
