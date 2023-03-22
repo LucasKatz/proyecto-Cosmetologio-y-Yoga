@@ -15,7 +15,7 @@
     font-family: 'Gilroy';
 }
 
-@media (max-width: 426px){
+@media (max-width: 480px){
 
     .SGuashaConteiner{
         display: grid;

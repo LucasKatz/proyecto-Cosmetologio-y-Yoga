@@ -31,7 +31,7 @@ function Clases() {
       </Card>
 
       <div className="contenedorBody">
-        <Button className="boton" style={{ backgroundColor: "#C87E5D" }}>
+        <Button id="botonReservaYoga" className="boton" style={{ backgroundColor: "#C87E5D" }}>
           <a
             className="href"
             href="https://api.whatsapp.com/send?phone=393398228987"

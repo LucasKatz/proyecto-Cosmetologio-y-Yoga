@@ -17,7 +17,7 @@
 
 /*Mobile Responsive*/
 
-@media (max-width: 426px){
+@media (max-width: 480px){
     #skincareText{
         font-size: 1.5rem;
         padding: 20px;

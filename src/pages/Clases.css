@@ -135,14 +135,18 @@ margin-bottom: 25px;
     text-decoration: none;
 }
 
+#botonReservaYoga{
+width: 100%;
+}
 
-@media (max-width: 426px){
+
+@media (max-width: 480px){
 .classConteiner {
     height: 700px;
 }
 
 #classConteinerYoga{
-    height: 700px;
+    height: 800px;
 }
 
 .titleClases{

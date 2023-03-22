@@ -50,7 +50,7 @@
 
 /*Mobile Responsive*/
 
-@media (max-width: 720px){
+@media (max-width: 480px){
 
     .homeConteiner{
         height: auto;

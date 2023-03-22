@@ -79,7 +79,7 @@
   justify-content: space-evenly;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 480px) {
   .body {
     width: 100%;
     background-image: url(../assets/pink.wave.svg);
@@ -144,7 +144,6 @@
   #contactosImg {
     display: inline;
     width: 90%;
-    height: 90%;
     margin-bottom: 35px;
   }
 
