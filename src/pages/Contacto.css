@@ -86,7 +86,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 420px;
+    height: 620px;
+  }
+
+  .contenedorBody{
+    margin-top: 50px;
   }
 
   .href {
@@ -98,7 +102,7 @@
 
   .botonContacto {
     border-radius: 12px;
-    margin: 8px;
+    margin: 20px;
     width: 80%;
   }
 
@@ -139,6 +143,7 @@
   .Feed {
     text-align: center;
     padding: 10px;
+    margin-top: 185px;
   }
 
   #contactosImg {
