@@ -7,7 +7,7 @@
   border-style: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
   #titleBio {
     font-size: 1.5rem;
   }

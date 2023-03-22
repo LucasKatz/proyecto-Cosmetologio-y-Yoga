@@ -10,13 +10,14 @@
 }
 
 #skincareText{
-    font-size: 30px
+    font-size: 30px;
+    font-family: 'Gilroy';
 }
 
 
 /*Mobile Responsive*/
 
-@media (max-width: 400px){
+@media (max-width: 426px){
     #skincareText{
         font-size: 1.5rem;
         padding: 20px;

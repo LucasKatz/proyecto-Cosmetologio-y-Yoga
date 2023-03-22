@@ -64,7 +64,7 @@ height: 75px;
 
 }
 
-@media (max-width: 400px){
+@media (max-width: 426px){
 
   .containerBackground {
     background-position: center;
@@ -77,6 +77,10 @@ height: 75px;
 
   .botonMenu {
     width: 80%;
+  }
+
+  #titleInfo{
+    padding: 5px;
   }
 
   
@@ -117,16 +121,19 @@ height: 75px;
   #SSkincare{
     height: 63px;
     width: 90%;
+    margin-top: 15px;
     }
     
     #SYoga{
       height: 63px; 
       width: 90%;
+      margin-top: 10px;
     }
 
     #SGuasha{
       width: 90%;
       height: 63px;
+      margin-top: 15px;
     }
 
 }

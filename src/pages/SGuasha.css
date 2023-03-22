@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 640px;
+    height: fit-content;
     display: grid;
     place-items: center;
     width: 100%;
@@ -12,9 +12,10 @@
 #guashaConteiner {
     width: "51rem";
     font-size: 30px;
+    font-family: 'Gilroy';
 }
 
-@media (max-width: 400px){
+@media (max-width: 426px){
 
     .SGuashaConteiner{
         display: grid;
