@@ -134,7 +134,7 @@ nav .boton {
 
 @media (max-width: 480px) {
   .navegador {
-    height: 12vh;
+    height: 9vh;
     padding: 15px;
     z-index: 2;
   }
