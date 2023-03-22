@@ -9,7 +9,7 @@ function Contacto() {
       <h1 className="tituloContacto">Contacto</h1>
 
       <div className="contenedorBody">
-        <Button className="boton">
+        <Button className="botonContacto">
           <a
             className="href"
             href="https://www.instagram.com/holistic.bodyandmind/"
@@ -23,7 +23,7 @@ function Contacto() {
           </a>
         </Button>
 
-        <Button className="boton">
+        <Button className="botonContacto">
           <a
             className="href"
             href="https://api.whatsapp.com/send?phone=393398228987"
