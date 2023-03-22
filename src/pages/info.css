@@ -41,14 +41,47 @@
 
 #SSkincare{
 height: 75px;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+width: 60%;
+background-color: #cdc8af;
+padding: 10px;
+border-radius: 12px;
+border-style: hidden;
+margin-bottom: 15px;
 }
 
+
 #SYoga{
-  height: 75px; 
+  height: 75px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background-color: #cdc8af;
+  padding: 10px;
+  border-radius: 12px;
+  border-style: hidden;
+  margin-bottom: 15px;
+} 
+
+#SGuasha{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background-color: #cdc8af;
+  padding: 10px;
+  border-radius: 12px;
+  border-style: hidden;
+  margin-bottom: 15px;
 }
+
 
 #iconGuasha{
   height: 50px;
+  
 
 }
 
