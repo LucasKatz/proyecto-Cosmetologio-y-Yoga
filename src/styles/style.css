@@ -132,7 +132,7 @@ nav .boton {
   background-size: 0% 4px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 720px) {
   .navegador {
     height: 15vh;
     padding: 15px;
