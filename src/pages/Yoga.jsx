@@ -19,7 +19,7 @@ function Clases() {
           />
         </Link>
       </Card>
-
+      
       <Card>
         <Link  to="/Niveles">
           <Card.Img

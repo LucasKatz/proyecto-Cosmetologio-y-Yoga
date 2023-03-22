@@ -29,5 +29,4 @@ function Clases() {
     </div>
   );
 }
-
 export default Clases;
