@@ -84,8 +84,8 @@
     width: 100%;
     background-image: url(../assets/pink.wave.svg);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
+    background-size: cover;
     height: 620px;
   }
 
