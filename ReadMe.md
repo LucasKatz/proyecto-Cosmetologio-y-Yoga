@@ -20,4 +20,4 @@ Install the dependencies and devDependencies and start the server.
 https://holisticbodyandmind.netlify.app/
  
  
- Developed by Lucas Katz - English teacher and Full Stack Web Developer - and Rocio Rivadeneira,  on March 23rd, 2023
+ Developed by Lucas Katz - English teacher and Full Stack Web Developer - and Rocio Rivadeneira - FrontEnd Developer-,  on March 23rd, 2023
