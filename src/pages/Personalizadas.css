@@ -13,10 +13,31 @@
     font-size: 30px 
 }
 
-@media (max-width: 426px){
+@media (max-width: 480px){
     #textConteiner{
         font-size: 1.5rem;
         margin: auto;
         padding: 20px;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 720px){
+#personConteiner{
+    height: auto;
+}
+
+#textConteiner{
+    padding: 15px;
+}
+}
+
+
+@media (min-width: 721px) and (max-width: 1530px){
+    #personConteiner{
+        height: 850px;
+    }
+
+    #textConteiner{
+        padding: 15px;
     }
 }

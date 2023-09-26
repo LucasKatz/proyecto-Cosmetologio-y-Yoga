@@ -11,6 +11,7 @@ function Personalizadas() {
           <strong id="referencia" style={{ color: "#5B3619", fontFamily: 'Gilroy' }} >¿A qué me refiero?</strong>
         </h4>
         <div
+          id="personConteiner"
           className="col-12 col-md-6 text-center pt-5"
           style={{ width: "51rem"}}
         >

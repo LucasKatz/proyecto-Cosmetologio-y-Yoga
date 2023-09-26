@@ -26,5 +26,25 @@
     #skincareConteiner{
         height: fit-content;
     }
+
+    #root{
+        overflow: hidden;
+    }
     
+}
+
+@media(min-width: 481px) and (max-width: 720px){
+    #root{
+        overflow: hidden;
+    }
+
+    #skincareConteiner{
+       padding: 15px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1530px){
+    #root{
+        overflow: hidden;
+    }
 }
