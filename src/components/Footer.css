@@ -33,7 +33,13 @@ footer .media a {
 }
 
 
-@media (max-width: 360px){
+
+@media (max-width: 320px){
+
+
+}
+
+@media (max-width: 720px){
 
 footer {
     height: 60px;
@@ -69,3 +75,4 @@ footer {
     color: inherit;
   }
 }
+

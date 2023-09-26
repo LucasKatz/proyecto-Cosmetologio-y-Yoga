@@ -16,7 +16,7 @@ function Contacto() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span className="textoBoton">@holistic.bodyandmind</span>
+            <span className="textoBotonContacto">@holistic.bodyandmind</span>
             <div className="iconContainer">
               <FontAwesomeIcon  id="iconInstagram" className="icon" icon={faInstagram} />
             </div>
@@ -30,7 +30,7 @@ function Contacto() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span className="textoBoton">¡Hablemos!</span>
+            <span className="textoBotonContacto">¡Hablemos!</span>
             <div className="iconContainer" id="iconContainerWpp">
               <FontAwesomeIcon id="iconWhatsapp" className="icon" icon={faWhatsapp} />
             </div>

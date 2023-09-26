@@ -32,7 +32,7 @@ body {
 }
 
 /**IMPORT Components */
-footer {
+/*footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -72,7 +72,7 @@ footer .social-media .rrss a {
 footer .social-media .rrss_social-icon {
   width: 40px;
   height: 20%;
-}
+}*/
  
 NavLink {
   text-decoration: none;
@@ -146,12 +146,13 @@ nav .boton {
 
 /*Mobile Responsive*/
 
-@media (max-width: 813px) {
+@media (max-width: 720px) {
   .navegador {
     z-index: 3;
   }
   .logo {
     overflow: hidden;
+    margin-bottom: 50px;
   }
   .btnConteiner {
     display: flex;

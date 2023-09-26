@@ -49,8 +49,60 @@
 }
 
 /*Mobile Responsive*/
+@media (max-width: 380px){
 
-@media (max-width: 480px){
+    .homeConteiner{
+        height: auto;
+        width: auto;
+    }
+
+    .carousel-indicators{
+        z-index: 1;
+    }
+
+    .infoHome{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-position: center;
+        height: auto;   
+    }
+
+    .vision{
+        display: grid;
+        place-items: center;
+        color: #5B3619;
+        text-align: center;
+
+    }
+    
+    .testimonios{
+        display: grid;
+        place-items: center;
+        color: #5B3619;
+        text-align: center;
+    }
+
+    .FeedHome{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .picturesHome{
+        width: fit-content;
+        height: 50%;
+    }
+
+    #homeImg{
+        display: inline;
+        width: 90%;
+        margin-bottom: 35px; 
+        padding: auto;
+    }
+
+}
+
+@media (max-width: 720px){
 
     .homeConteiner{
         height: auto;

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "start": "start",
+    "build": "build",
     "preview": "vite preview",
     "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
@@ -17,6 +18,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.3",
+    "nodemon": "^3.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
@@ -38,6 +40,6 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "prettier": "2.8.4",
-    "vite": "^4.1.4"
+    "vite": "^4.4.9"
   }
 }

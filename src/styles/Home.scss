@@ -1,7 +1,7 @@
 // -------------------- VARIABLES
 
 // colors
-
+/*
 $black: #000000;
 $white: #ffffff;
 
@@ -88,7 +88,7 @@ $xxl: 1400px;
 
 /* Responsive */
 
-@media (max-width: 360px){
+@media (max-width: 380px){
 
     .infoHome{
         display: grid;
@@ -123,7 +123,7 @@ $xxl: 1400px;
     }
 
     .picturesHome{
-        width:100%;
+        width:90%;
         margin-bottom: 30px;
         margin: auto;
     }
