@@ -68,3 +68,44 @@
 
 
 
+  @media(min-width: 481px) and (max-width: 720px){
+    .parrafoSY {
+      height: fit-content;
+      margin-bottom: 20px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .textoVideoYoga {
+      color: #5b3619;
+      font-size: 18px;
+    }
+  
+    Button .boton {
+      width: 150px;
+    }
+  
+    .SYogaPage{
+      width: fit-content;
+    }
+  
+    .textoVideoYoga {
+      color: #5b3619;
+      font-size: 18px;
+    }
+  
+    .boton{
+      width: 100%;
+      margin: auto;
+    }
+  
+    .textoBoton{
+      font-size: 18px;
+    }
+  }
+
+  
+  @media(min-width: 721px) and (max-width: 1530px){
+
+    
+  }

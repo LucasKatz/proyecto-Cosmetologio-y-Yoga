@@ -186,7 +186,7 @@ nav li {
   }
 }
 
-@media (max-width: 1530px) {
+@media (min-width: 721px) and (max-width: 1530px) {
  
   NavLink {
     text-decoration: none;
@@ -201,7 +201,8 @@ nav li {
   }
   
   .logo {
-    height: 6em;
+    height: 50px;
+    width: 50px;
     padding: 1.5em;
     will-change: filter;
     position: absolute;
