@@ -74,6 +74,8 @@ footer .social-media .rrss_social-icon {
   height: 20%;
 }*/
  
+
+/*
 NavLink {
   text-decoration: none;
 }
@@ -129,7 +131,7 @@ nav li {
   margin: 4px;
 }
 
-nav .boton {
+/*nav .boton {
   width: 180px;
   text-align: center;
   font-size: x-large;
@@ -142,9 +144,36 @@ nav .boton {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 4px;
-}
+}*/
 
 /*Mobile Responsive*/
+/*
+@media (max-width: 380px) {
+  .navegador {
+    z-index: 3;
+    height: auto;
+  }
+  .logo {
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .btnConteiner {
+    display: flex;
+  }
+  .linkConteiner {
+    display: grid;
+    place-items: center;
+    width: 260px;
+    height: 641px;
+    background-image: url("https://res.cloudinary.com/dfd5jte9n/image/upload/v1678399492/menu-lateral-261_qcpwgz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Link {
+    font-size: 20px;
+  }
+
+}
 
 @media (max-width: 720px) {
   .navegador {
@@ -169,5 +198,5 @@ nav .boton {
   .Link {
     font-size: 20px;
   }
-}
+}*/
 /**IMPORT Pages *//*# sourceMappingURL=style.css.map */

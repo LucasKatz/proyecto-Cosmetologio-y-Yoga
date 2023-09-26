@@ -1,4 +1,6 @@
 /**IMPORT Reset */ /* Reseteo */
+
+/*
 *,
 *::after,
 *::before {
@@ -64,6 +66,8 @@ footer .social-media .rrss_social-icon {
   }
 }
 
+
+
 NavLink {
   text-decoration: none;
 }
@@ -117,27 +121,9 @@ nav li {
   margin: 4px;
 }
 
-nav .boton {
-  width: 180px;
-  text-align: center;
-  font-size: x-large;
-  background-color: #b17f48;
-  color: #56381f;
-  font-family: "Indie Flower", cursive;
-  font-weight: bolder;
-  text-decoration: none;
-  background-image: linear-gradient(to right, yellow, brown);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 4px;
-}
 
 @media (max-width: 480px) {
-  .navegador {
-    height: 9vh;
-    padding: 15px;
-    z-index: 2;
-  }
+ 
   #logo {
     overflow: hidden;
     height: 40px;
@@ -145,6 +131,11 @@ nav .boton {
   }
   .btnConteiner {
     display: flex;
+  }
+  .navegador {
+  
+    padding: 15px;
+    z-index: 3;
   }
   .linkConteiner {
     display: grid;
@@ -156,9 +147,115 @@ nav .boton {
     background-repeat: no-repeat;
     position: relative;
   }
+  
   .Link {
     font-size: 20px;
     font-weight: 800;
   }
 }
-/**IMPORT Pages *//*# sourceMappingURL=style.css.map */
+
+@media (max-width: 1023px) {
+ 
+  #logo {
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+  }
+  .btnConteiner {
+    display: flex;
+  }
+  .navegador {
+  
+    padding: 15px;
+    z-index: 3;
+  }
+  .linkConteiner {
+    display: grid;
+    place-items: center;
+    width: 50%;
+    height: 641px;
+    background-image: url(https://res.cloudinary.com/dfd5jte9n/image/upload/v1678560580/WhatsApp_Image_2023-03-11_at_15.16.40-min_ykxojf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .Link {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 1530px) {
+ 
+  NavLink {
+    text-decoration: none;
+  }
+  
+  .navegador {
+    background-color: #FFFFFF;
+    justify-content: end;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 117px;
+    z-index: 1;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    position: absolute;
+  }
+  
+  .btnConteiner {
+    justify-content: end;
+  }
+  
+  .Link {
+    margin: 25px;
+    font-size: x-large;
+    flex-direction: row;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-decoration: none;
+    color: #C87E5D;
+  }
+  
+  nav {
+    font-size: larger;
+  }
+  
+  nav .logo {
+    margin-top: -50px;
+    margin-right: 60px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav li {
+    display: inline;
+    font-size: larger;
+    margin: 4px;
+  }
+  
+  nav .boton {
+    width: 180px;
+    text-align: center;
+    font-size: x-large;
+    background-color: #b17f48;
+    color: #56381f;
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    text-decoration: none;
+    background-image: linear-gradient(to right, yellow, brown);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 4px;
+  }
+}
+/*IMPORT Pages *//*# sourceMappingURL=style.css.map */
