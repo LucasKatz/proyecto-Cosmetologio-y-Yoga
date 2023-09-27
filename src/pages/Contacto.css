@@ -86,7 +86,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 620px;
+    height: 100%;
   }
 
   .contenedorBody{
@@ -106,7 +106,7 @@
     width: 80%;
   }
 
-  .textoBoton {
+  .textoBotonContacto {
     font-size: 20px;
     display: grid;
     place-content: center;
@@ -144,6 +144,7 @@
     text-align: center;
     padding: 10px;
     margin-top: 185px;
+    margin-bottom: 50px;
   }
 
   #contactosImg {
@@ -170,5 +171,66 @@
 
   .Link {
     font-size: 20px;
+  }
+}
+
+
+@media(min-width: 481px) and (max-width: 720px){
+
+  
+  .botonContacto {
+    border-radius: 12px;
+    margin: 20px;
+    width: 80%;
+  }
+
+  .textoBotonContacto {
+    font-size: 25px;
+    display: grid;
+    place-content: center;
+  }
+
+  .icon {
+    height: 30px;
+    width: 30px;
+    color: #c87e5d;
+  }
+
+  #iconInstagram{
+    height: 30px;
+    width: 30px;
+  }
+
+  #iconWhatsapp{
+    height: 30px;
+    width: 30px;
+  }
+
+  #iconContainerWpp{
+    margin-left: 50px;
+  }
+
+}
+
+@media (min-width: 721px) and (max-width: 1530px){
+  .body {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+  }
+
+  .botonContacto {
+   margin-bottom: 90px;
+  }
+
+  .Feed {
+    text-align: center;
+    padding: 10px;
+    margin-top: 185px;
+    margin-bottom: 50px;
+  }
+
+  .contenedorBody{
+    margin-top: 150px;
   }
 }
