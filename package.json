@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "start",
-    "build": "build",
+    "build": "vite build",
     "preview": "vite preview",
     "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
